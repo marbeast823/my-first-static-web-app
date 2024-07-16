@@ -1,0 +1,147 @@
+﻿@charset "utf-8";
+@Import url("common.css");
+
+fieldset { border:0; margin:0; padding:0; }
+
+/***** List Pages *****/
+div.content_general div.header { height:27px; overflow:hidden; background:url(../images/tankace/news/list_titlebar.gif) no-repeat; }
+div.content_general div.qnaheader { height:27px; overflow:hidden; background:url(../images/tankace/support/qna_titlebar.gif) no-repeat; }
+div.content_general ul.list { width:100%; list-style-type:none; margin:0; padding:0; }
+div.content_general ul.list li { float:left; height:30px; border-bottom:1px solid #042014; text-align:center; }
+div.content_general ul.list li.even { background-color:#000f0a; }
+div.content_general ul.list li div { float:left; line-height:30px; }
+div.content_general ul.list li div.num { width:84px;  }
+div.content_general ul.list li div.subject { width:425px; text-align:left; overflow:hidden; }
+div.content_general ul.list li div.subject div.icons { margin:8px 10px 0 0; }
+div.content_general ul.list li div.date { width:128px; }
+div.content_general ul.list li div.views { width:87px; }
+div.content_general ul.list li div.check { width:54px;  }
+div.content_general ul.list li div.question { width:335px; text-align:left; overflow:hidden; }
+div.content_general ul.list li div.qnatype { width:130px; }
+div.content_general ul.list li div.qnastatus { width:75px; }
+div.content_general ul.list li div.qnastatus div.ico_stat { background:url(../images/tankace/support/ico_state.gif) no-repeat; width:48px; height:12px; margin:7px 7px; }
+div.content_general ul.list li div.qnastatus div.receiving { background-position:0 0; }
+div.content_general ul.list li div.qnastatus div.ongoing { background-position:0 -12px; }
+div.content_general ul.list li div.qnastatus div.complete { background-position:0 -24px; }
+/***** Gallery List *****/
+div.content_general ul.gallery li { height:69px; }
+div.content_general ul.gallery li div { line-height:69px; }
+div.content_general ul.gallery li img { float:left; margin:7px 5px 0 0; padding:2px; width:69px; height:49px; background:#191919; border:1px solid #323232; vertical-align:middle; }
+/***** Mate List *****/
+div.content_general ul.mate { border-top:1px solid #042014; }
+div.content_general ul.mate li { width:100%; height:82px; padding-top:7px; }
+div.content_general ul.mate li img { float:left; margin-left:7px; width:109px; height:69px; padding:2px; border:1px solid #323232; background:#191919; }
+div.content_general ul.mate li div.info { float:left; text-align:left; margin-left:20px; width:579px; }
+div.content_general ul.mate li div.info p { line-height:180%; margin-top:6px; }
+div.content_general ul.mate li div.info p a { color:#004d33; font-weight:bold; font-size:14px; }
+div.content_general ul.mate li div.info ul li { border:0; padding:0; text-align:left; width:193px; line-height:18px; height:18px; }
+/***** Detail Pages - News, Events, Gallery, Mate *****/
+div.content_general table.detail { width:100%; text-align:left; border-collapse:collapse; border:1px solid #042014; }
+div.content_general table.detail thead th, div.content_general table.detail thead td, div.content_general table.detail tfoot td { padding:0; height:28px; border-bottom:1px solid #042014; }
+div.content_general table.detail thead th div.addthis { float:right; }
+div.content_general table.detail thead td { color:#000f0a; }
+div.content_general table.detail thead h1 { float:left; margin:0; padding:0; font-size:12px; color:#004d33; }
+div.content_general table.detail thead b { float:left; margin-right:6px; color:#646464; }
+div.content_general table.detail thead b.indent { margin-left:19px; }
+div.content_general table.detail thead span { color:#004d33; font-weight:normal; }
+div.content_general table.detail thead th { background:#000; }
+div.content_general table.detail thead td { background:#000f0a; color:#004d33; }
+div.content_general table.detail tbody td.content { padding:17px 20px; border:1px solid #042014; vertical-align:top; overflow:hidden; }
+div.content_general table.detail tbody td.content div.recommend { margin:20px 0 10px; }
+/***** Gallery Detail *****/
+div.content_general table.detail tbody td.content div.gallery_image { text-align:center; margin:0 auto 10px auto; }
+/***** Comments - Gallery, Mate *****/
+div.content_general table.comment { width:100%; border-collapse:collapse; }
+div.content_general table.comment tbody p  { margin:5px 10px; }
+div.content_general table.comment tbody td, table.reply_wrap tbody th { border:1px solid #042014; border-top:0; height:30px; }
+div.content_general table.comment tbody th { background:#000; border:1px solid #042014; border-top:0; border-right:0; }
+div.content_general table.comment tbody td { background:#000f0a; }
+div.content_general table.comment tbody th b { float:right; color:#004d33; margin-right:10px; }
+div.content_general table.comment tbody td p { overflow:hidden; }
+div.content_general table.comment tbody td p.date { text-align:center; width:88px; }
+div.content_general table.comment tbody td.write { position:relative; padding:10px; background:#000f0a; }
+div.content_general table.comment tbody td.write textarea { float:left; width:600px; margin-right:10px; height:48px; border:1px solid #022016; background-color:#000000; overflow-y:hidden; }
+div.content_general table.comment tbody td.write input { float:left; width:90px; height:50px; }
+/***** PrevNext *****/
+div.content_general dl.prevnext { clear:left; float:left; width:726px; border:1px solid #042014; border-bottom:0; border-top:0; margin:0; }
+div.content_general dl.prevnext dt { float:left; width:150px; height:30px; border-bottom:1px #042014 solid; border-right:1px #042014 solid; background:#000; }
+div.content_general dl.prevnext dd { float:left; width:574px; height:30px; border-bottom:1px #042014 solid; margin:0; background:#000f0a; }
+div.content_general dl.prevnext dd p { float:left; line-height:30px; margin:0; padding-left:10px; }
+div.content_general dl.prevnext dd p.nomore { color:#8A8A8A; font-size:10px; }
+div.content_general dl.prevnext dd p a { color:#004d33; }
+/***** ReadWrite - FAQ, DQA, Gallery Write *****/
+div.content_general table.readwrite { width:100%; border-collapse:collapse; }
+div.content_general table.readwrite tbody th, div.content_general table.readwrite tbody td { border:1px solid #042014; height:30px; padding:0; }
+div.content_general table.readwrite tbody th { vertical-align:top; text-align:right; background-color:#000; }
+div.content_general table.readwrite tbody th b { line-height:30px; padding-right:10px; }
+div.content_general table.readwrite tbody th b.content { line-height:45px; }
+div.content_general table.readwrite tbody th img { vertical-align:bottom; }
+div.content_general table.readwrite tbody td p { margin:0 10px; }
+div.content_general table.readwrite tbody td p.question { color:#004d33; }
+div.content_general table.readwrite tbody td p.content { margin:15px 10px; }
+div.content_general table.readwrite tbody td p.nomore { color:#8A8A8A; font-size:10px; }
+div.content_general table.readwrite tbody td p a { color:#004d33; }
+div.content_general table.readwrite tbody td h1 { margin:0 10px; font-size:12px; color:#004d33; }
+div.content_general table.readwrite tbody td input { float:left; margin:4px 10px; padding:0; width:549px; height:21px; border:1px solid #002a1c; background:#02110c; }
+div.content_general table.readwrite tbody td input.orig { margin:0 10px 4px 10px; }
+div.content_general table.readwrite tbody td textarea { float:left; margin:10px; padding:0; width:549px; height:330px; border:1px solid #002a1c; background:#000; }
+div.content_general table.readwrite tbody td select { float:left; margin:0 10px; padding:0; width:auto; height:23px; border:1px solid #002a1c; background:#02110c; }
+/***** Paging *****/
+div.content_general div.page_wrap { clear:both; margin:20px 5px 0 0; text-align:right; }
+div.content_general	div.page_wrap ul.paging { list-style:none; margin:0px; padding:0; }
+div.content_general	div.page_wrap ul.paging li { clear:none; float:left; margin-left:10px; width:21px; height:21px; line-height:21px; text-align:center; background:url(../images/tankace/common/paging_bg.gif) no-repeat; }
+div.content_general	div.page_wrap ul.paging li a { display:inline-block; width:21px; height:21px; color:#fff; text-decoration:none; }
+div.content_general	div.page_wrap ul.paging li.selected { color:#a7a7a7; font-weight:bold; background:none; }
+div.content_general	div.page_wrap ul.paging li.prev { background-position:0 -25px; }
+div.content_general	div.page_wrap ul.paging li.next { background-position:0 -50px; }
+/***** Form *****/
+div.content_general div.page_wrap form.search { float:right; }
+div.content_general div.page_wrap form.search select { float:left; margin:0; padding:0; width:121px; height:23px; border:1px solid #002a1c; background:#02110c; }
+div.content_general div.page_wrap form.search input.search_word { float:left; margin:0 5px; padding:0; width:193px; height:21px; border:1px solid #002a1c; background:#02110c; }
+/***** Support message *****/
+div.content_general div.supportmsg { clear:left; width:707px; margin:10px 20px 0 20px; color:#656565; }
+div.content_general div.supportmsg span { color:#004d33; }
+div.content_general div.hsep { clear:both; float:left; width:728px; height:0px; border-top:1px solid #323232; margin:15px 0px; }
+/***** News, Event *****/
+.ainf { float:left; margin:2px 10px; width:66px; text-align:center; }
+.ainf .stats { float:left; margin:0 0 10px 0; padding-top:0px; width:66px; height:15px; line-height:14px; text-align:center; -moz-border-radius: 7px; border-radius:7px; color:#a8a8a8; }
+.ainf .coming { background-color: #152e6e; }
+.ainf .ongoing { background-color: #591c00; }
+.ainf .done { background-color: #282828; }
+.ainf .notice { background-color: #560e72; }
+.ainf .update { background-color: #226f5d; }
+.dd { float:left; margin:-4px 2px 0 2px; height:25px; font-size:30px; line-height:32px; color:#494949; }
+.mm { float:left; vertical-align:top; line-height:12px; color:#494949; }
+.artcle { float:left; width:628px; }
+.artcle dt { width:100%; height:20px; line-height:20px; color:#333333; font-weight:bold; }
+.artcle dt a:hover { color:#858585; }
+.artcle dt .subject_sel { color:#858585; text-decoration:underline; }
+.artcle dt .subject { line-height:20px; color:#606060; font-weight:bold; float:left; }
+.artcle dt .view { color:#4d4d4d; font-weight:normal; width:72px; float:right; font-size:11px; }
+.artcle dd { width:100%; color:#777777; border-top:1px solid #242424; padding-top:3px; }
+.artcle dd a { color:#4d4d4d; }
+.artcle dd a:hover { text-decoration:none; }
+.artcle a.rmore { color:#37967e; font-weight:bold; }
+.artcle dd .evtstat { height:19px; line-height:16px; font-size:11px; margin:0 0 0 -4px; padding:0; background:url(../images/tankace/news/evtstat.png) no-repeat top left; text-indent:17px; }
+.artcle dd .ongoing { background-position:0 -17px; }
+.artcle dd .coming { background-position:0 0; }
+.artcle dd .done { background-position:0 0; }
+.list_wrap_news { width:728px; margin:0px; }
+.list_wrap_news li.lists { float:left; margin:0; padding:15px 3px; width:718px; border-bottom:1px solid #042014; }
+.list_wrap_news li.evn { background-color:#000f0a; }
+.list_wrap_news li.page { height:70px; margin-top:20px; vertical-align:top; }
+.list_wrap_news li.page div.page_wrap { float:left; margin-top:20px; width:40%; }
+.list_wrap_news li.page div.search_wrap { float:right; margin-top:20px; margin-right:10px; }
+.list_wrap_news li.page div.search_wrap input.search_word { float:left; width:200px; height:20px; margin:0 5px; border:1px solid #c8c8c8; background-color:#fff; }
+.event_top { width:706px;height:208px;border:1px solid #000;margin:9px 9px 9px 9px;background-color:#191919; }
+.event_banner { float:left;margin:4px 4px 4px 4px; }
+.event_countdown { float:right;width:196px;height:90px;margin:10px 8px 0 0;background:url('../images/tankace/news/eventview_countdown_bg.gif') no-repeat; }
+.event_countdown span#cntdwn { display:block; color:#ffffff; font-size:23px; text-align:right; padding:42px 18px 0 0; }
+.event_countdown span#cntdwn span.sep { margin-left:18px; }.event_countdown_coming { float:right;width:196px;height:90px;margin:10px 8px 0 0;background:url('../images/tankace/news/eventview_countdown_coming.gif') no-repeat; }
+.event_countdown_done { float:right;width:196px;height:90px;margin:10px 8px 0 0;background:url('../images/tankace/news/eventview_countdown_done.gif') no-repeat; }
+.event_date { float:left; margin-left:15px; color:#777777; }
+.event_date b { color:#004d33; }
+.topitem { float:left; margin:0; padding:15px 0; border:3px solid #000; width:718px; background-color:#191919; }
+.topitem dd { border-top:1px solid #000; }
+.topitem dt .subject a { color:#a8a8a8; }
+.topitem dd a { color:#777777; }

@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+*{margin:0; padding:0}
+
+img{border:0}
+ul{list-style:none}
+.clear_b{clear:both;overflow:hidden}
+
+
+/* tournamentr*/
+#tournament{width:650px;height:100%;min-height:600px;background-color:#000;color:#fff;font-family:arial,sans-serif;font-size:1em;line-height:1.2em}
+
+h1{width:443px;margin:0 auto}
+
+/* All */
+.search_box{width:648px;height:49px;margin-bottom:42px;background-color:#191919;border:1px solid #272626}
+.notice{width:644px;min-height:200px;margin-top:50px;border:3px solid #880000}
+.event_tit{padding:15px 0 0 15px;font-size:1.6em;color:#fff;}
+.notice_list{padding:10px 0 10px 15px;}
+.event_tts_y{font-size:0.8em;color:#ffc600;font-weight:bold;font-family:verdana;}
+.list li ul{padding:0 5px 0 20px;list-style-type:decimal;font-weight:normal;color:#999;font-size:0.9em;letter-spacing:-0.05em;line-height:1.2em}
+
+.icon_win{z-index:2;position:absolute;width:41px;height:48px;}
+.default{position:absolute;left:10px;top:10px;width:258px;height:38px;padding-top:8px;background:url(../img/bg_matches_default.jpg) no-repeat;color:#e5e5e5;text-align:center;}
+.lose{position:absolute;left:10px;top:10px;width:258px;height:38px;padding-top:8px;background:url(https://www.jnran-gs.com/assets/Ranking/img/bg_matches_lose.html) no-repeat;color:#515151;text-align:center;}
+.win{position:absolute;left:10px;top:10px;width:258px;height:38px;padding-top:8px;background:url(https://www.jnran-gs.com/assets/Ranking/img/bg_matches_win.html) no-repeat;font-weight:bold;color:#ffd200;text-align:center;}
+
+
+
+/* 32*/
+#warp_32round{width:650px;}
+#warp_32round h2.tit{width:400px;height:53px;margin:0 auto;}
+#warp_32round  .round_box {position:relative;width:650px;height:1011px;background:url(../img/bg_32round.jpg) no-repeat}
+.time_32round{position:absolute;left:216px;top:71px;width:230px;height:30px;text-align:center}
+.match32_set{position:relative;left:0px;top:102px;width:650px;height:1011px;}
+
+/*
+.match32_set{position:relative;left:0px;top:102px; width:650px;overflow:hidden}
+.match32_set  li{width:258px;height:38px;}
+*/
+.match32_set .user_01{position:absolute;left:0px;top:0px}
+.match32_set .user_02{position:absolute;left:380px;top:0px}
+.match32_set .user_03{position:absolute;left:0px;top:58px}
+.match32_set .user_04{position:absolute;left:380px;top:58px}
+.match32_set .user_05{position:absolute;left:0px;top:116px}
+.match32_set .user_06{position:absolute;left:380px;top:116px}
+.match32_set .user_07{position:absolute;left:0px;top:174px}
+.match32_set .user_08{position:absolute;left:380px;top:174px}
+.match32_set .user_09{position:absolute;left:0px;top:232px}
+.match32_set .user_10{position:absolute;left:380px;top:232px}
+.match32_set .user_11{position:absolute;left:0px;top:290px}
+.match32_set .user_12{position:absolute;left:380px;top:290px}
+.match32_set .user_13{position:absolute;left:0px;top:348px}
+.match32_set .user_14{position:absolute;left:380px;top:348px}
+.match32_set .user_15{position:absolute;left:0px;top:406px}
+.match32_set .user_16{position:absolute;left:380px;top:406px}
+.match32_set .user_17{position:absolute;left:0px;top:464px}
+.match32_set .user_18{position:absolute;left:380px;top:464px}
+.match32_set .user_19{position:absolute;left:0px;top:522px}
+.match32_set .user_20{position:absolute;left:380px;top:522px}
+.match32_set .user_21{position:absolute;left:0px;top:580px}
+.match32_set .user_22{position:absolute;left:380px;top:580px}
+.match32_set .user_23{position:absolute;left:0px;top:638px}
+.match32_set .user_24{position:absolute;left:380px;top:638px}
+.match32_set .user_25{position:absolute;left:0px;top:696px}
+.match32_set .user_26{position:absolute;left:380px;top:696px}
+.match32_set .user_27{position:absolute;left:0px;top:754px}
+.match32_set .user_28{position:absolute;left:380px;top:754px}
+.match32_set .user_29{position:absolute;left:0px;top:812px}
+.match32_set .user_30{position:absolute;left:380px;top:812px}
+.match32_set .user_31{position:absolute;left:0px;top:870px}
+.match32_set .user_32{position:absolute;left:380px;top:870px}
+
+/* 16 And 8 round*/
+#warp_16n8round{width:650px;height:100%}
+#warp_16n8round h2.tit{width:590px;height:53px;margin:0 auto;}
+#warp_16n8round  .round_box {position:relative;width:650px;height:1073px;background:url(https://www.jnran-gs.com/assets/Ranking/img/bg_16round.html) no-repeat}
+
+.time_16round{position:absolute;left:20px;top:71px;width:230px;height:30px;text-align:center}
+.match16_set{position:relative;left:0px;top:102px;}
+.match16_set .user_01{position:absolute;left:1px;top:0}
+.match16_set .user_02{position:absolute;left:1px;top:58px}
+.match16_set .user_03{position:absolute;left:1px;top:126px}
+.match16_set .user_04{position:absolute;left:1px;top:184px}
+.match16_set .user_05{position:absolute;left:1px;top:252px}
+.match16_set .user_06{position:absolute;left:1px;top:310px}
+.match16_set .user_07{position:absolute;left:1px;top:378px}
+.match16_set .user_08{position:absolute;left:1px;top:436px}
+.match16_set .user_09{position:absolute;left:1px;top:504px}
+.match16_set .user_10{position:absolute;left:1px;top:562px}
+.match16_set .user_11{position:absolute;left:1px;top:630px}
+.match16_set .user_12{position:absolute;left:1px;top:688px}
+.match16_set .user_13{position:absolute;left:1px;top:756px}
+.match16_set .user_14{position:absolute;left:1px;top:814px}
+.match16_set .user_15{position:absolute;left:1px;top:882px}
+.match16_set .user_16{position:absolute;left:1px;top:940px}
+
+.time_8round{position:absolute;left:370px;top:71px;width:230px;height:30px;text-align:center}
+.match8_set{position:relative;left:0px;top:102px;}
+.match8_set .user_01{position:absolute;left:344px;top:29px}
+.match8_set .user_02{position:absolute;left:344px;top:155px}
+.match8_set .user_03{position:absolute;left:344px;top:281px}
+.match8_set .user_04{position:absolute;left:344px;top:407px}
+.match8_set .user_05{position:absolute;left:344px;top:533px}
+.match8_set .user_06{position:absolute;left:344px;top:659px}
+.match8_set .user_07{position:absolute;left:344px;top:785px}
+.match8_set .user_08{position:absolute;left:344px;top:911px}
+
+/* final*/
+#warp_final{width:650px;height:100%}
+#warp_final h2.tit{width:400px;height:53px;margin:0 auto;}
+#warp_final  .round_box {position:relative;width:650px;height:835px;background:url(https://www.jnran-gs.com/assets/Ranking/img/bg_final.html) no-repeat}
+
+.gold{position:absolute;left:240px;top:94px;font-weight:bold;color:#000;text-align:center;width:170px}
+.silver{position:absolute;left:91px;top:182px;font-weight:bold;color:#000;text-align:center;width:170px}
+.bronze{position:absolute;left:382px;top:182px;font-weight:bold;color:#000;text-align:center;width:170px}
+
+
+.time_final{position:absolute;left:216px;top:276px;width:230px;height:30px;text-align:center}
+.match_final_set{position:relative;left:0px;top:308px;}
+.match_final_set .user_01{position:absolute;left:20px;top:0px}
+.match_final_set .user_02{position:absolute;left:372px;top:0px}
+
+.time_3n4_round{position:absolute;left:216px;top:451px;width:230px;height:30px;text-align:center}
+.match_3n4_round_set{position:relative;left:0px;top:308px;}
+.match_3n4_round_set .user_01{position:absolute;left:185px;top:176px}
+.match_3n4_round_set .user_02{position:absolute;left:185px;top:255px}
+
+.time_semi_1round{position:absolute;left:38px;top:677px;width:230px;height:30px;text-align:center}
+.match_semi_1round_set{position:relative;left:20px;top:710px;}
+.match_semi_1round_set .user_01{position:absolute;left:0px;top:0px}
+.match_semi_1round_set .user_02{position:absolute;left:0px;top:78px}
+
+.time_semi_2round{position:absolute;left:375px;top:677px;width:230px;height:30px;text-align:center}
+.match_semi_2round_set{position:relative;left:353px;top:710px;}
+.match_semi_2round_set .user_01{position:absolute;left:0px;top:0px}
+.match_semi_2round_set .user_02{position:absolute;left:0px;top:78px}
+
+
+

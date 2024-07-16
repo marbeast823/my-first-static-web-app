@@ -1,0 +1,127 @@
+﻿@charset "utf-8";
+@Import url("common.css");
+@Import url("jScrollPane.css");
+@Import url("jquery.ui.dialog.css");
+
+/***** Center Containers *****/
+div.contmid { float:left; width:501px; height:auto !important; border:1px solid #383838; border-top:none; background-color:#0F0F0F; }
+
+/***** Main Banner *****/
+div.banner_main { position:relative; width:503px; height:240px; background:url(../images/tankace/main/ad_bg.jpg) no-repeat; }
+div.banner_main div.btn_movie { position:absolute; bottom:5px; right:16px; }
+div.banner_main div.btn_movie a { float:right; margin:0; padding:0; height:20px; }
+div.banner_main #advFlash { margin-top:7px; margin-left:3px; width:491px; height:198px; }
+		
+/***** Right_Wrap ****************************************/
+div.trailer { position:relative; padding:10px; }		
+div.trailer img.trailer { width:210px; height:133px; }
+div.trailer img.btn { position:absolute; top:46px; left:-25px; }
+div.trailer img.next { left:174px; }
+
+/***** News Lists *****/
+ul.newslist { float:left; width:100%; height:auto !important; }
+ul.newslist li { float:left; margin:0 3px; width:495px; height:45px; border-bottom:1px solid #1e1e1e; } /*dashed*/
+ul.newslist li p { float:left; }
+ul.newslist li div { float:left; margin:10px 5px 0 5px; }
+ul.newslist li dl { float:left; margin:6px 5px 0 5px; width:435px; }
+ul.newslist li dl dt { position:relative; line-height:17px; }
+ul.newslist li dl dt a { color:#004d33; font-weight:bold; }
+ul.newslist li dl dt span { position:absolute; right:0px; line-height:16px; color:#004d33; font-size:11px; }
+ul.newslist li dl dd { clear:left; line-height:16px; }
+ul.newslist li.last { border:0; }
+/***** News Lists *****/
+
+/***** Gallery Board Lists *****/
+ul.gallerylist { float:left; width:473px; margin:17px; }
+ul.gallerylist li { float:left; width:100px; text-align:center; }
+ul.gallerylist li.sep { width:0px; height:70px; margin:0 10px; border-right:1px solid #1b1b1b; }
+ul.gallerylist li dl { height:101px; }
+ul.gallerylist li dl dt { width:98px; height:68px; margin-bottom:5px; overflow:hidden; border:1px solid #323232; background:#000; }
+ul.gallerylist li dl dt p { width:96px; height:66px; margin:1px; }
+ul.gallerylist li dl dt p img { width:96px; height:66px; }
+ul.gallerylist li dl dd { line-height:16px; }
+ul.gallerylist li dl dd.title { color:#004d33; font-weight:bold; }
+/***** Gallery Board Lists *****/
+
+
+/***** Live *****/
+.commentlist { clear:left; float:left; margin:2px 0; width:498px; height:160px; overflow:hidden; }
+.commentlist ul { width:480px; height:160px; margin-left:2px; }
+.commentlist ul li { clear:left; float:left; width:100%; padding:9px 0;border-bottom:1px solid #1e1e1e; }
+.commentlist ul li.nodata { text-align:center; font-weight:bold; border:none; }
+.commentlist ul li dl { float:left; }
+.commentlist ul li dt { float:left; width:120px; }
+.commentlist ul li dt p { width:90px; margin:0 5px; color:#004d33; font-weight:bold; font-size:11px; }
+.commentlist ul li dd.cont { float:left; width:298px; font-weight:normal; font-size:11px; }
+.commentlist ul li dd.date { float:left; width:60px; color:#004d33; font-weight:normal; font-size:11px; }
+
+.commentwrite_wrap { clear:left; float:left; width:499px; height:33px; padding:1px; background:#000; }
+.commentwrite { clear:left; float:left; width:497px; height:31px; border:1px solid #2A2A2A; background:url(../images/tankace/main/storylive_bg.gif) repeat-x;  }
+.commentwrite input[name=comment] { float:left; margin:5px 0 0 9px; padding:0; width:412px; height:19px; line-height:19px; color:#4d4d4d; border:1px solid #232323; text-indent:5px; background:#0a0a0a url(../images/tankace/main/storylive_input_bg.gif) no-repeat; }
+.commentwrite input[type=image] { float:left; margin:5px 0 0 5px; }
+/***** Live *****/
+
+/***** Center_Wrap ****************************************/
+
+
+
+/***** Right_Wrap ****************************************/
+/***** Banner *****/
+	div.right_wrap div.banner { clear:left; margin-bottom:5px;}
+
+/***** Right_Wrap ****************************************/
+
+/***** Detail Dialog *****/
+.disable_wrap { position:absolute; left:0px; top:0px; width:100%; height:100%; min-height:1800px; z-index:999; }
+
+.movie_dialog { position:absolute; float:left; left:-1px; top:373px; width:100%; z-index:9999; }
+.movie_dialog div.dialog_wrap { margin:0 auto; width:503px; }
+.movie_dialog div.dialog { float:left; width:501px; background-color:#000; border:1px solid #024C33; }
+.movie_dialog p { float:right; margin:8px 16px; z-index:20; }
+.movie_dialog div.player { margin:6px; width:489px; height:335px; background-color:#000; z-index:999; }
+.movie_dialog div.info { margin:5px 6px 0 6px; width:484px; height:156px; background-color:#FFF; overflow:auto; z-index:999; }
+.movie_dialog div.info select { float:left; margin:10px; width:464px; z-index:999; }
+.movie_dialog div.info div { float:left; margin:0 10px 10px; width:464px; z-index:999; }
+
+.cover-content{
+    padding: 10px;
+    background: url('/assets/images/card-pattern.jpg') #111;
+    width: 100%;
+    position: relative;
+}
+
+
+.main-content{
+    position: relative;
+    opacity: 0.8;
+    border-top: 3px solid #0fa9ec
+}
+
+.card-ran{
+    border-radius: 0px;
+    border-bottom: 0px;
+    background: url('/assets/images/nav-pattern.png') #161616;
+
+}
+
+.card-ran .card-header{
+    border-color: #222222;
+    border-radius: 0px !important;
+    /* background-image: linear-gradient(to bottom,#fff 0,#efefef 100%); */
+    background: rgba(40, 40, 40, 0.5);
+
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.card-ran .card-body{
+    color: rgb(233, 233, 233) !important;
+}
+
+.card-ran .card-header span::after{
+    content: url('/assets/images/card-title.png');
+    padding-left: 2px;
+}

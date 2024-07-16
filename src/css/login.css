@@ -1,0 +1,76 @@
+﻿@charset "utf-8";
+
+/***** Global *****/
+.hide { display:none; }
+img { border:none; margin:0; padding:0; }
+caption, legend { display:none; }
+div.clear { clear:both; }
+ul, ol, dl, li, dt, dd { margin:0; padding:0; }
+ul, ol { list-style:none; }
+/***** Layout *****/
+
+body, table, tr, td, select, input, textarea, div { font-family:arial; font-size:12px; color:#646464; }
+em, cite, address, dfn, var { font-style:normal; }
+form { margin:0; }
+a { text-decoration:none; color:#606060; }
+a:hover, a:active, a:focus { text-decoration:underline;}
+/***** Page *****/
+
+/***** Icons & Buttons *****/
+div.icons { float:left; background:url(../images/tankace/common/icons_bg.gif) no-repeat; overflow:hidden; }
+div.ico_stay p, div.ico_up p, div.ico_down p { float:right; width:16px; font-size:11px; text-align:left; } /* ranking */
+div.ico_buy { width:52px; height:15px; background-position:0 0; cursor:pointer; }
+div.ico_update { width:37px; height:12px; background-position:0 -15px; }
+div.ico_notice { width:37px; height:12px; background-position:-37px -15px; }
+div.ico_ongoing { width:37px; height:12px; background-position:-74px -15px; }
+div.ico_coming { width:37px; height:12px; background-position:-148px -15px; }
+div.ico_done { width:37px; height:12px; background-position:-111px -15px; }
+div.ico_user { width:37px; height:11px; background-position:0 -27px; }
+div.ico_gm { width:37px; height:11px; background-position:-37px -27px; }
+div.ico_up { width:30px; height:30px; background-position:-30px -68px; }
+div.ico_down { width:30px; height:30px; background-position:-60px -68px; }
+div.ico_more { float:right; margin:5px; width:20px; height:20px; background-position:-4px -95px; cursor:pointer; }
+div.ico_sign { width:11px; height:12px; background-position:-52px 0px; margin:4px 6px 0 0; }
+div.ico_sign_cred { width:3px; height:3px; background-position:-63px 0px; margin:13px 5px 0 0; }
+div.ico_sign_acct { width:4px; height:7px; background-position:-66px 0px; margin:7px 0 0 0; }
+div.ico_bul1 { width:13px; height:16px; background-position:0 -114px; }
+div.ico_lbox_stay { width:10px; height:20px; background-position:-8px -74px; }
+div.ico_lbox_up { width:13px; height:20px; background-position:-31px -73px; }
+div.ico_lbox_down { width:10px; height:20px; background-position:-61px -73px; }
+div.ico_lnb { width:3px; height:3px; background-position:-70px 0; margin:14px 5px 0 13px; }
+/***** Common BBS buttons *****/	
+input.bbs { margin-right:5px; padding-bottom:3px; width:64px; height:22px; color:#fff; font-weight:bold; border:0; cursor:pointer; background:url(../images/tankace/common/btn_bbs.gif) no-repeat; }
+input.gray { background:url(../images/tankace/common/btn_bbs_gray.gif) no-repeat; }
+/***** Container more buttons *****/
+
+/***** Title Bars *****/
+div.sign_wrap div.title a { margin-left:153px; color:#a68500; font-weight:bold; text-decoration:underline; font-size:12px; height:27px; line-height:27px; }
+div.sign_wrap div.sign_off { background-position:0 0; }
+div.sign_wrap div.sign_on { background-position:0 -30px; }
+div.sign_wrap a { color:#646464; }
+
+
+div.sign_wrap fieldset p { float:left; height:49px; margin:0; padding:0; }
+div.sign_wrap fieldset ul { list-style-type:none; margin:0; margin:0; clear:left; float:left; padding:7px 0 7px 0; height:50px; } /* margin:10px 0 0 10px; */
+div.sign_wrap fieldset ul li { margin:0; padding:0; clear:left; float:left; width:200px; height:17px; line-height:17px; overflow:hidden; }
+div.sign_wrap fieldset ul li input { float:left; margin:0; padding:0; margin-right:4px; width:13px; height:13px; }
+div.sign_wrap fieldset ul li label { float:left; font-size:11px; line-height:13px; color:#534a00; }
+div.sign_wrap fieldset ul li span { text-decoration:underline; font-weight:bold; }
+div.sign_wrap fieldset ul li a { font-size:11px; text-decoration:none; vertical-align:top; color:#534a00; }
+div.sign_wrap fieldset ul li a span { font-weight:bold; text-decoration:underline; color:#9c571e; }
+div.sign_wrap div.signup { clear:left; margin:0; padding:0 0 0 11px; }
+/***** Sign In Box - Signed In *****/
+#el01 {width:100%} /* Width */
+#el02 { /* Text and background colour, blue on light gray */
+color:#00f;
+background:#ddd;
+}
+#el03 {background:url(/i/icon-info.gif) no-repeat 100% 50%} /* Background image */
+#el04 {border-width:6px} /* Border width */
+#el05 {border:2px dotted #00f} /* Border width, style and colour */
+#el06 {border:none} /* No border */
+#el07 {padding:1em} /* Increase padding */
+#el08 { /* Change width and height */
+width:4em;
+height:4em;
+}

@@ -7,7 +7,7 @@ $web['connection'] = 'mssql';
 $web['localhost'] = 'localhost';
 
 
-$web['dbhost'] = 'DESKTOP-9FUBEFT\JUVERSOURCE';
+$web['dbhost'] = 'myRanVM\SQLEXPRESS';
 
 
 $web['database'] = 'RanUser';
@@ -15,7 +15,7 @@ $web['database'] = 'RanUser';
 $web['dbuser'] = 'sa';
 
 
-$web['dbpassword'] = 'Ragnarok!23';
+$web['dbpassword'] = 'marpogi23@';
 require("includes/web.php");
 
 

@@ -1,0 +1,138 @@
+﻿@charset "utf-8";
+@Import url("common.css");
+
+fieldset { border:0; margin:0; padding:0; }
+table{ border-collapse:collapse; border-spacing:0; }
+
+/***** Tab Menu *****/
+div.tabmenu { clear:left; width:722px; height:33px; margin:10px 4px 10px 0px; background:#d2e6ef; border:1px solid #8ec4e6; }
+
+/***** Paging *****/
+div.content_general div.page_wrap { clear:both; margin:20px 5px 0 0; text-align:right; }
+div.content_general	div.page_wrap ul.paging { list-style:none; margin:0px; padding:0; }
+div.content_general	div.page_wrap ul.paging li { clear:none; float:left; margin-left:10px; width:25px; height:24px; line-height:22px; text-align:center; background:url(../images/tankace/bg/bbs_paging.html) no-repeat; }
+div.content_general	div.page_wrap ul.paging li a { display:inline-block; width:25px; height:24px; color:#2875b9; text-decoration:none; }
+div.content_general	div.page_wrap ul.paging li.selected { color:#5f5f5f; font-weight:bold; background-position:0 -24px; }
+div.content_general	div.page_wrap ul.paging li.prev { background-position:0 -48px; }
+div.content_general	div.page_wrap ul.paging li.next { background-position:0 -72px; }
+/***** Form *****/
+div.content_general div.page_wrap form.search { float:right; }
+div.content_general div.page_wrap form.search select { float:left; margin:0; padding:0; width:121px; height:23px; border:1px solid #cdcdcd; }
+div.content_general div.page_wrap form.search input.search_word { float:left; margin:0 5px; padding:0; width:193px; height:21px; border:1px solid #cdcdcd; background:#f7f7f7; }
+
+
+/***** Itemmall Lists -  Item Mall *****/
+ul.list_wrap { float:left; width:722px; display:inline; margin-bottom:0px; }
+ul.list_wrap li { float:left; display:inline; }
+ul.list_wrap li.lists { clear:left; width:722px; border-bottom:1px solid #c4c4c4;padding:10px 0px 10px 0px; }
+ul.list_wrap li.lists_top { border-top:1px solid #c4c4c4; }
+ul.list_wrap li.lists div { float:left; width:360px; height:78px; margin:0; padding:0; }
+ul.list_wrap li.lists div.even { border-left:1px solid #c4c4c4; margin-left:-4px; }
+ul.list_wrap li.lists div p { position:relative; float:left; line-height:63px; width:66px; height:69px; margin:5px 10px 0 34px; padding:0; overflow:hidden; background:url(../images/tankace/itemshop/bg_item.html) no-repeat transparent; }
+ul.list_wrap li.lists div p .item_img { position:absolute; margin:1px 0 0 1px; width:64px; height:64px; background-position:center; background-repeat:no-repeat; background-color:#ffffff; }
+ul.list_wrap li.lists div p .discount { position:absolute; margin:0; padding:0; top:0; left:0; width:64px; height:64px; background-position:top left; background-repeat:no-repeat; }
+ul.list_wrap li.lists div dl { float:left; width:235px; margin:5px 0 0 0px; font-weight:bold; font-size:8px; line-height:15px; }
+ul.list_wrap li.lists div dl dt a { color:#4B4B4B; font-size:11px; }
+ul.list_wrap li.lists div dl dd.cost a { color:#1265a9; font-size:11px; }
+ul.list_wrap li.lists div dl dd.info a { font-weight:normal; color:#4B4B4B; margin:0; line-height:100%; font-size:11px; }
+ul.list_wrap li.lists div dl dd img { margin-top:0px; }
+/***** Itemmall Lists -  Item Mall *****/
+
+
+/***** Views *****/
+div.info_wrap { float:left; width:706px; height:auto; min-height:179px; border:4px solid #a1cfe9; margin:10px 0 0 6px; }
+div.info_wrap p { position:relative; float:left; margin:20px 0 0 23px; width:66px; height:69px; overflow:hidden; background:url(../images/tankace/itemshop/bg_item.html) no-repeat transparent; }
+div.info_wrap p .item_img { position:absolute; margin:1px; width:64px; height:64px; background-position:center; background-repeat:no-repeat;  }
+div.info_wrap p .discount { position:absolute; margin:0; padding:0; top:0; left:0; width:64px; height:64px; background-position:top left; background-repeat:no-repeat; }
+div.info_wrap dl { float:left; width:290px; margin:25px 0 0 20px; line-height:18px; overflow:hidden; }
+div.info_wrap dl dt { float:left; width:290px; overflow:hidden; font-size:12px; font-weight:bold; color:#4B4B4B; }
+div.info_wrap dl dd { clear:left; width:290px; float:left; overflow:hidden; }
+div.info_wrap dl dd.cost {color:#973d00; }
+div.info_wrap dl dd.cost select { margin:3px 0px; border:1px solid #888; width:200px; height:18px; color:#4c4c4e; font-size:11px; font-weight:bold; }
+div.info_wrap dl dd.cost select option { font-size:11px; font-weight:normal; }
+div.info_wrap dl dd img { margin-top:2px; }
+div.info_wrap table { float:left; width:280px; margin-top:20px; border:1px solid #a1cfe9; text-align:left; font-weight:normal; }
+div.info_wrap table span { margin-left:10px; font-weight:normal; font-size:11px; }
+div.info_wrap table span b { font-size:11px; }
+div.info_wrap table th { width:120px; height:31px; line-height:23px; background-color:#d2e6ef; color:#1f64a5; border:1px solid #a1cfe9; }
+div.info_wrap table td { width:153px; height:31px; line-height:23px; color:#1f64a5; border:1px solid #a1cfe9; }
+
+div.detail_wrap { clear:both; float:left; width:610px; margin:25px 34px; line-height:16px; }
+div.detail_wrap a { color:#973d00; text-decoration:underline; }
+div.detail_wrap p.bonus { font-size:12px; font-weight:bold; }
+div.detail_wrap p.bonus span { color:#E00024; }
+div.detail_wrap pre { width:672px; border:1px solid red; }
+div.detail_wrap h2 { clear:left; font-size:13px; color:#4B4B4B; }
+div.detail_wrap ul li { float:left; margin-left:20px; border:1px solid #E3E3E3;  }
+div.detail_wrap ul li p { margin:5px; width:190px; height:120px; background-color:#000; }
+div.detail_wrap ul li p img { width:190px; height:120px; }
+div.detail_wrap div.movie {  margin:10px 80px; float:left; padding:5px; border:1px solid #E3E3E3; }
+input.availabil { float:left; width:268px; height:21px; line-height:21px; border:1px solid #E3E3E3; margin-right:3px; }
+
+div.content_general div.detail_line { clear:both; margin:20px 5px 0 0; text-align:right;border-top:1px solid #aaaaaa; }
+
+
+/***** Result *****/
+div.result_info { clear:left; float:left; width:691px; margin:0px 28px 5px 0; padding:10px 11px 10px 20px; vertical-align:top; border-bottom:1px solid #aaaaaa; }
+div.result_info p { position:relative; float:left; margin-left:30px; line-height:63px; width:66px; height:69px; overflow:hidden; background:url(../images/tankace/itemshop/bg_item.html) no-repeat transparent; }
+div.result_info p .item_img { position:absolute; margin:1px; width:64px; height:64px; background-position:center; background-repeat:no-repeat; background-color:#ffffff; }
+div.result_info dl { float:left;  margin:13px 0 0 10px; font-weight:bold; font-size:11px; line-height:15px;  }
+div.result_info dl dt a { color:#4B4B4B; }
+div.result_info dl dd.cost a { color:#973d00; font-size:11px; }
+div.result_info dl dd.info a { font-weight:normal; color:#4B4B4B; margin:0; line-height:100%; font-size:11px; }
+
+div.result_content { clear:left; float:left; width:629px; margin:15px; }
+div.result_content h1 { font-size:16px; }
+div.result_content ul { margin-left:20px; }
+div.result_content b { color:#1265a9; }
+div.result_content a { color:#1265a9; text-decoration:underline; }
+
+
+/***** Itemmall itemtop *****/
+div.itemtop { position:relative; float:left; margin:0px; width:728px; height:258px; background:url('../images/tankace/itemshop/bg_itemtop.html') no-repeat; }
+div.itemtop img#opt1 { position:absolute; top:22px; right:26px; cursor:pointer; }
+div.itemtop img#opt2 { position:absolute; top:68px; right:26px; cursor:pointer; }
+div.itemtop img#opt3 { position:absolute; top:114px; right:26px; cursor:pointer; }
+div.itemtop img#opt4 { position:absolute; top:160px; right:26px; cursor:pointer; }
+div.itemtop img#opt5 { position:absolute; top:206px; right:26px; cursor:pointer; }
+
+div.itemtop img.back { position:absolute; top:0px; right:4px; cursor:pointer; }
+div.itemtop img.head { position:absolute; top:42px; left:309px; }
+div.itemtop div.ItemShop { position:absolute; top:96px; left:309px; width:391px; height:135px; border:1px solid #99caea; background-color:#d2e6ef; overflow:hidden; }div.itemtop div.ItemShop a:hover, #ItemShop .carousel a:active { border: none; outline: none; }
+div.itemtop div.ItemShop .content { width:390px; height:105px; float:none; overflow:hidden; }
+div.itemtop div.ItemShop .jCarouselLite { }
+
+div.itemtop div.ItemShop .prev { float: left; margin-left:1px;}
+div.itemtop div.ItemShop .next { }
+div.itemtop .jCarouselLite .itemimg { width:66px; height:69px; margin-top:18px; margin-left:20px; padding:1px 0 0 1px; float:left; background:url(../images/tankace/itemshop/bg_item_top.html) no-repeat; }
+div.itemtop .jCarouselLite .itemimg .item_img { position:absolute; margin:0; width:64px; height:64px; background-position:center; background-repeat:no-repeat; background-color:#ffffff; }
+div.itemtop .jCarouselLite .itemimg .discount { position:absolute; margin:0; padding:0; top:0; left:0; width:64px; height:64px; background-position:top left; background-repeat:no-repeat; }
+div.itemtop .jCarouselLite .iteminfo { width:270px; margin-top:20px; margin-left:76px; }
+div.itemtop .jCarouselLite .iteminfo dl { float:left;  margin:0 0 0 16px; font-weight:bold; font-size:12px; line-height:15px;  }
+div.itemtop .jCarouselLite .iteminfo dl dt a { color:#4B4B4B; }
+div.itemtop .jCarouselLite .iteminfo dl dd.info a { font-weight:normal; color:#4B4B4B; margin:0; line-height:100%; font-size:11px; }
+div.itemtop .jCarouselLite .iteminfo dl dd.cost a { color:#044db4; font-size:11px; }
+div.itemtop .jCarouselLite .iteminfo dl dd img { margin-top:2px; }
+
+
+/***** Itemmall Lists Title *****/
+div.ico_item { float:left; width:3px; height:4px; margin:25px 7px 0 5px; background:url(../images/tankace/itemshop/ico_item.html) no-repeat; }
+div.sub_title { clear:both; float:left; width:728px; height:52px; }
+div.sub_title h1 { float:left; margin:20px 0 0 0; font-size:12px; color:#4b4b4b;  }
+
+
+/***** Itemmall Lists GM *****/
+div.itemgm { float:left; margin-top:10px; width:728px; height:220px; background:url('../images/tankace/itemshop/bg_item_gm.html') no-repeat; }
+
+ul.list_wrap li.lists_gm { clear:left; width:722px; padding:0px 0px 0px 0px;margin-top:10px; }
+ul.list_wrap li.lists_gm div { float:left; width:360px; height:83px; margin:0; padding-top:5px; }
+ul.list_wrap li.lists_gm div.even { border-left:1px solid #d0e8f4; margin-left:-10px; }
+ul.list_wrap li.lists_gm div p { position:relative; float:left; line-height:63px; width:66px; height:69px; margin:5px 10px 0 28px; padding:0; overflow:hidden; background:url(../images/tankace/itemshop/bg_item.html) no-repeat transparent; }
+ul.list_wrap li.lists_gm div p .item_img { position:absolute; margin:1px 0 0 1px; width:64px; height:64px; background-position:center; background-repeat:no-repeat; background-color:#ffffff; }
+ul.list_wrap li.lists_gm div p .discount { position:absolute; margin:0; padding:0; top:0; left:0; width:64px; height:64px; background-position:top left; background-repeat:no-repeat; }
+
+ul.list_wrap li.lists_gm div dl { float:left; width:235px; margin:5px 0 0 0px; font-weight:bold; font-size:8px; line-height:15px; }
+ul.list_wrap li.lists_gm div dl dt a { color:#4B4B4B; font-size:11px; }
+ul.list_wrap li.lists_gm div dl dd.cost a { color:#1265a9; font-size:11px; }
+ul.list_wrap li.lists_gm div dl dd.info a { font-weight:normal; color:#4B4B4B; margin:0; line-height:100%; font-size:11px; }
+ul.list_wrap li.lists_gm div dl dd img { margin-top:0px; }

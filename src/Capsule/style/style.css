@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Athiti|Chonburi|Itim|Kanit|Maitree|Mitr|Pattaya|Pridi|Prompt|Sriracha|Taviraj|Trirong');
+body{
+	background-image:url(../images/background.jpg);
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	background-repeat:no-repeat;
+}
+
+#content{
+	width:900px;
+	background-color:#FFF;
+	border-radius:5px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:150px;
+}
+
+#logintxt{
+	font-family:'Mitr';
+	font-size:18px;
+}
+.textbox { 
+    background: #1A1A1A; 
+    height:25px; 
+    width: 275px; 
+    border-radius: 2em; 
+    border: none; 
+    color: #A2A2A2; 
+    padding-left: 1.5em; 
+    outline: none; 
+    box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px hsl(0, 0%, 2%) 
+} 
+
+.button{
+	width:120px;
+	height:30px;
+}
+.button:hover{
+	background-color:#333;
+	color:#FFF;
+	cursor:pointer;
+}

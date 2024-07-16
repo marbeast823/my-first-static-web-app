@@ -1,0 +1,784 @@
+.btn2{
+BORDER: #2F89EF 1px solid;
+FONT-SIZE: 9pt;
+color:#000000;FONT-FAMILY: "芥竟"; HEIGHT: 24px; width:60px; BACKGROUND-COLOR: #BAD9FB}
+.boardHIT { font-family:tahoma;font-size:10px;color:#ffa915; }
+.png24 {tmp:expression(setPng24(this));}
+a,img,input { selector-dummy: expression(this.hideFocus=true); }
+
+#subContents { padding:0;margin:0;width:686px;float:right;}
+#subContents .title { padding:16px 16px 0 16px; margin:0;height:28px;_height:44px; background:url("images/bg_contentsBox_01.jpg") repeat-y top left;}/* 컨텐츠 타이틀 */
+#subContents .Contents
+{
+    padding:10px 16px 0 16px;
+    margin:0;text-align:left;
+    background:url("images/bg_contentsBox_02.gif") repeat-y top left;
+}
+#subContents .ContentsLeft23 {padding:12px 12px 0 23px; text-align:left;height:100%;clear:both;background:url("images/bg_contentsBox_02.gif") repeat-y top left;}
+#subContents .contentsIMG { width:654px; margin:0;padding-bottom:17px;display:block;}/* 게시판 이미지용 */
+#subContents .contentsIMG1 { width:654px;margin:0;padding-top:0px;padding-bottom:17px;display:block;}/* 테스터 게시판 이미지용 */
+
+* html #subContents .contentsIMG1 { width:654px; margin:0;padding-top:0px;	display:block;}/* 테스터 게시판 이미지용 */
+
+.ContentsFooter
+{
+    padding:0;margin:0;height:40px;
+    background:url("images/bg_contentsBox_03.jpg") no-repeat bottom left;
+
+}
+#subFooter { padding-top:10px;clear:both;	margin:0;height:144px;width:100%;	text-align:right;}/* 카피라이트 공간 확보를 위한 가상공간 */
+
+
+/***************************** 서브페이지 코딩 시작 *****************************/
+
+#subLeftContents { /* 메인 왼쪽 컨텐츠 */
+	padding-right:0px;
+	width:204px;
+	float:left;
+	z-index:10;
+}
+.grayLine { /* 게시판 아래 공간 */
+	background:#d5e6f1;
+	height:1px;
+	padding:0;
+	margin:0;
+}
+
+		#subLeftContents .Menu_bg { /* 서브 메뉴bg */
+			background:url("images/bg_sub_menu0.jpg");
+			height:7px;
+			margin:0;
+		}
+		#subLeftContents .Menu { /* 서브 메뉴 */
+			background:url("images/bg_sub_menu1.jpg") no-repeat top left;
+			display:block;
+			height:242px;
+			text-align:left;
+			padding-top:16px;
+			padding-left:16px;
+			margin:0;
+		}
+		#subLeftContents .Menu2 { /* 서브 메뉴2 */
+			background:url("images/bg_sub_menu2.jpg") no-repeat top left;
+			display:block;
+			height:267px;
+			text-align:left;
+			padding-top:16px;
+			padding-left:16px;
+			margin:0;
+		}
+		#subLeftContents .Menu3 { /* 서브 메뉴3 */
+			background:url("images/bg_sub_menu2.jpg") no-repeat top left;
+			display:block;
+			height:267px;
+			text-align:left;
+			padding-top:16px;
+			padding-left:16px;
+			margin:0;
+		}
+		#subLeftContents .Menu6 { /* 서브 메뉴6 */
+			background:url("images/bg_sub_menu6.jpg") no-repeat top left;
+			display:block;
+			height:232px;
+			text-align:left;
+			padding-top:16px;
+			padding-left:16px;
+			margin:0;
+		}
+		#subLeftContents .Banner { /* 메인 배너 */
+			padding-top:25px;
+			margin:0;
+		}
+		#subLeftContents .QuickMenu { /* 메인 배너 */
+			padding-top:8px;
+			height:114px;
+			margin:0;
+		}
+
+
+/***************************** 자료실 *****************************/
+#check {
+}
+#check .leftCOL { /* 왼쪽 */
+	background:#E6EBF1;
+	width:129px;
+	height:25px;
+	text-align:center;
+	border-bottom:1px solid #FFF;
+}
+#check .centerCOL {	/* 가운데 */
+	background:#FFF;
+	width:264px;
+	height:25px;
+	border-bottom:1px solid #EBEBEB;
+	border-right:1px solid #EBEBEB;
+	font-family:dotum dotumche;
+	font-size:12px;
+	padding-left:7px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+#check .rightCOL { /* 오른쪽 */
+	background:#FFF;
+	width:254px;
+	height:25px;
+	border-bottom:1px solid #EBEBEB;
+	font-family:dotum dotumche;
+	font-size:12px;
+	padding-left:7px;
+	padding-top:2px;
+}
+
+.CheckBtn { /* 오른쪽 */
+	width:630px;
+	height:40px;
+	text-align:center;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+.MovieBig{ /* 동영상 실시간 영상 */
+	width:440px;
+	height:306px;
+	float:left;
+	padding-right:10px;
+}
+.MovieSmall{ /* 작은 버튼 보기 */
+	width:210px;
+	float:right;
+}
+.MovieBt { /* 버튼 */
+	padding-top:5px;
+	padding-bottom:5px;
+	width:210px;
+	text-align:right;
+}
+
+/***************************** 게시판 코딩 *****************************/
+.text {
+	padding-left:5px;
+	padding-top:6px;
+	color:#8ab8dd;
+}
+
+.lineEB {
+	width:634px;
+	height:1px;
+	background:#ebebeb;
+	overflow:hidden;
+	clear:both;
+}
+.line_dot {
+	width:654px;
+	height:1px;
+	background:url("images/board_view_line.jpg");
+	overflow:hidden;
+	clear:both;
+}
+
+.lineEB4 {
+	width:654px;
+	height:1px;
+	background:#72aedd;
+	overflow:hidden;
+	clear:both;
+}
+
+.btnBottom { /* 이슈토크 버튼 */
+	padding-right:2px;
+	text-align:right;
+	width:660px;
+	background:url("images/img_issue_01.gif") no-repeat top left;
+	height:45px;
+}
+
+.issueComment { /* 이슈 내용 */
+	font-family:芥竟;
+	float:left;
+	width:654px;
+	height:48px;
+	background-image:url(images/img_issue_01.jpg);
+	padding-left:95px;
+	padding-top:16px;
+	font-weight:bold;
+	font-size:14px;
+	color:#5899c6;
+	text-align:left;
+}
+.issueBoard { /* 이슈 보드 */
+	clear:both;
+	padding-top:3px;
+}
+.issueBoard_comment { /* 이슈 보드-코멘트 */
+	clear:both;
+	padding-left:18px;
+	color:#5899c6;
+}
+.issueBoard_reply { /* 이슈 보드-리플 */
+	clear:both;
+	padding-left:34px;
+	color:#5899c6;
+}
+.issueBottom { /* 이슈 날짜랑 버튼 */
+	clear:both;
+	text-align:right;
+	width:655px;
+	color:#E9761A;
+	font-family:tahoma;
+	font-size:9px;
+	padding-top:3px;
+	padding-bottom:7px;
+}
+
+.replyNum { /* 게시판 리스트 리플 숫자표시 */
+	font-family:Verdana;
+	font-size:10px;
+	color:#ffa915;
+}
+
+.paging { /* 페이징 */
+	width:654px;
+	height:28px;
+	padding-top:10px;
+	margin:0;
+	text-align:center;
+/*	font-family:tahoma;
+	font-size:10px; */
+	float:left;
+	color:#8ab8dd;
+}
+/* .paging a:link, a:visited, a:active {
+	text-decoration:none;
+	color:#363636;
+	font-family:tahoma;
+	font-size:10px;
+} */
+
+.paging a:hover{
+	text-decoration:none;
+}
+
+.paging a.check {
+	font-weight:bold;
+	text-decoration:none;
+	color:#fd9f2b;
+/*	font-family:tahoma;
+	font-size:10px; */
+}
+.paging-btn
+{
+	float:right;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:4px;
+}
+.list-btn {
+	float:right;
+	padding-top:10px;
+
+}
+.ClearList {
+	clear:both;
+}
+#board { /* 일반적인 게시판 */
+	width:654px;
+	background:#FFF;
+	text-align: left;
+	clear:both;
+	table-layout:fixed;word-break:break-all;
+}
+#board_WriteBg { /* 게시판쓰기 */
+	width:654px;
+	background:#FFF url("images/Bg_board_write02.jpg") no-repeat top left;
+	text-align: left;
+	clear:both;
+}
+#board_Write_top { /* 게시판쓰기-top */
+	width:654px;
+	height:14px;
+	background:#FFF url("images/Bg_board_write01.jpg") no-repeat top left;
+	text-align: left;
+	clear:both;
+}
+#board_Write_bottom { /* 게시판쓰기-bottom */
+	width:654px;
+	height:14px;
+	background:#FFF url("images/Bg_board_write03.jpg") no-repeat top left;
+	text-align: left;
+	clear:both;
+}
+#boardNoHtc { /* htc땜시롱 임시로 박은 스타일 */
+	width:654px;
+	background:#FFF;
+	text-align: left;
+	clear:both;
+}
+
+.tapmenu { /* 탭메뉴 */
+	background:#FFF url("images/Bg_tap.gif") no-repeat top left;
+	height:40px;
+	padding-top:5px;
+	padding-right:12px;
+	text-align:right;
+	margin:0;
+}
+
+.read_top { /* 게시판(View) - 상단 클래스 */
+	border-bottom:1px solid #fff;
+    height:26px;
+	background:#72aedd url("images/Bg_board_bg.jpg") no-repeat top right;
+}
+
+.read_top_title { /* 게시판(View) - 상단 클래스(제목) */
+	width:540px;
+	float:left;
+	background:#72aedd url("images/Bg_board_bg.jpg") no-repeat top left;
+	padding-left:10px;
+	padding-top:4px;
+	color:#fff;
+	font-weight:bold;
+	table-layout:fixed;word-break:break-all;
+}
+
+.read_top_name { /* 게시판(View) - 상단 클래스(이름) */
+	float:right;
+	text-align:right;
+	padding-right:10px;
+	padding-top:4px;
+	color:#fff;
+	font-weight:bold;
+}
+
+.read_top2 {
+	height:27px;
+
+}
+.read_top2_underline {
+	background:#ffffff url("images/board_view_line.jpg") no-repeat top left;
+}
+.read_link {  /* 게시판(View) - 상단 클래스(링크) */
+	float:left;
+	width:490px;
+	color:#544E43;
+	font-family:verdana;
+	font-size:10px;
+	padding-top:4px;
+	padding-left:10px;
+}
+
+#read_link_a {
+	float:left;
+	color:#5899c6;
+	font-family:verdana;
+	font-size:10px;
+}
+
+* html .read_date { /* 게시판(View) - 상단 클래스(날짜) */
+	float:right;
+	text-align:right;
+	color:#72aedd;
+	font-family:tahoma;
+	font-size:10px;
+	padding-top:3px;
+	padding-right:12px;
+}
+
+.read_date { /* 게시판(View) - 상단 클래스(날짜) */
+	float:right;
+	text-align:right;
+	color:#72aedd;
+	font-family:tahoma;
+	font-size:10px;
+	padding-top:4px;
+	padding-right:12px;
+}
+
+.read_contents {
+	word-wrap:break-word;
+	word-break:break-all;
+	display:block;
+	padding:10px;
+}
+div.read_contents p {
+	color:#000;
+}
+*html .read_contents {
+	padding:10px;
+  height:200px;
+}
+
+
+.read_contents_box {
+	width:640px;height:220px;border:4px solid #C1C1C1;
+	padding:10px;
+	font-family:dotum dotumche;
+	font-size:12px;
+	}
+
+.write_contents_box {
+	margin:0;
+	text-align:top;
+	padding-left:5px;
+	padding-top:3px;
+	color:#999999;
+	width:620px;height:220px;border:1px solid #d4d4d4;
+	}
+
+
+.board_write_file { /* 게시판(Write) - 파일 올리는 부분 */
+	background:#D5D3CD;
+	height:28px;
+	padding-top:4px;
+	padding-left:5px;
+}
+
+.bold { font-weight:bold; }
+
+
+
+
+* html .search {
+	width:100%;
+	height:34px;
+
+	text-align:center;
+	background: url("images/Bg_board_search.jpg");
+}
+
+* html .search input {
+	margin-bottom:-3px;
+	font-size:12px;
+	color:#5899c6;
+	padding-top:3px;
+	padding-left:5px;
+}
+
+div.search {
+	width:100%;
+	height:34px;
+	text-align:center;
+	background: url("images/bg_b_search.gif") no-repeat;
+	clear:both;
+	text-decoration:none;
+	color:#7ba7c5;
+}
+div.search table {
+	background:none !important;
+	border:none !important;
+}
+div.search table td {
+	border:none !important;
+	padding-left:4px;
+	vertical-align:middle;
+}
+#SearchType
+{
+	width:100px;
+	height:22px;
+	border:solid 1px #bdd8ee;
+	margin-top:1px;
+}
+#SearchWord
+{
+	margin:0; padding:0;
+	height:17px;
+	width:100px;
+	border:solid 1px #bdd8ee;
+}
+#board .search .search_bg_left {  /* 게시판 페이징 - 왼쪽 둥그스런 이미지*/
+	background:#72aedd url("images/bg_paging_01.jpg");
+}
+#board .search .search_bg_right {  /* 게시판 페이징 - 오른쪽 둥그스런 이미지*/
+	background:#72aedd url("images/bg_paging_03.jpg");
+}
+
+#board
+{
+	margin-right:-10px;
+}
+#board table
+{
+	background:#fff;
+	font-size:12px;
+}
+#board table td{
+	margin:0;
+	padding-top:3px;
+	border-bottom:1px solid #d5e6f1;
+	height:24px;
+	_height:27px;
+}
+.noborder{
+	border-bottom:1px solid #ffffff;
+}
+#board table td a { color:#5899c6; }
+
+* html #board table th { /* 게시판 - 상단 클래스 */
+	border-bottom:0px solid #FFFFFF;
+	background:#72aedd url("images/Bg_board_bg.jpg") no-repeat top center;
+	height:26px;
+
+	text-align:center;
+}
+#board table th { /* 게시판 - 상단 클래스 */
+	border-bottom:0px solid #FFFFFF;
+	background:#72aedd url("images/Bg_board_bg.jpg") no-repeat top center;
+	height:26px;
+	text-align:center;
+}
+#board table .left {  /* 게시판 - 상단 왼쪽 둥그스런 이미지*/
+	background:#72aedd url("images/Bg_board_1.jpg") no-repeat top left;
+}
+#board table .right { /* 게시판 - 상단 오른쪽 둥그스런 이미지*/
+	background:#72aedd url("images/Bg_board_2.jpg") no-repeat top right;
+}
+
+#board table td.english {  /* 게시판 - 한글이 없는 테이블엔 전부 포함 */
+	font-family:tahoma;
+	font-size:10px;
+	color:#999999;
+	text-align:center;
+}
+#board table tr.gm {  /* 게시판 - GM이 글 쓸 때만 주는 거 */
+	background:#ffffff;
+	color:#5899c6;
+	padding-bottom:1px;
+}
+#board table tr.issue {  /* 게시판 - 이슈게시판 */
+	background:#ffffff;
+	color:#5899c6;
+	width:600px;
+	padding-left:18px;
+	padding-bottom:1px;
+}
+
+* html .thumbnail { /* 스크린샷 썸네일 관리자 */
+	width:210px;
+	float:left;
+	height:190px;
+}
+
+.thumbnail { /* 스크린샷 썸네일 관리자 */
+	width:210px;
+	float:left;
+	height:190px;
+	padding-right:0px;
+}
+
+.thumbnailSS { /* 스크린샷 썸네일  */
+    width:200px;
+	height:137px;
+	background:url(images/bg_list_screenshot.gif) no-repeat 0 center;
+	padding:2px 2px 0px 4px;
+}
+
+.thumbnailSS img { /* 스크린샷 썸네일 이미지  */
+	width:188px;
+	height:106px;
+	border:2px solid #FFF;
+	background:#FFF;
+	padding:0px;
+	display:block;
+}
+
+.thumbnailSS img a:hover { /* 스크린샷 썸네일 이미지  */
+	width:188px;
+	height:106px;
+	border:2px solid #;
+	background:#FFF;
+	padding:0px;
+	display:block;
+}
+
+.thumbnailSS p { /* 스크린샷 썸네일 제목  */
+	height:20px;
+	padding-top:6px;
+	margin:0;
+}
+
+.thumbnail_name { /* 스크린샷 썸네일 글쓴이  */
+	width:210px;
+	height:25px;
+	background:#FFF url("images/Bg_ss_line.gif") repeat-x top left;
+	text-align:center;
+	font-size:11px;
+	padding-top:4px;
+}
+
+.thumbnail_date { /* 스크린샷 썸네일 날짜  */
+	width:210px;
+	height:20px;
+	padding-top:4px;
+	text-align:center;
+	font-size:10px;
+	font-family:tahoma;
+}
+
+.Wall { /* 월페이퍼 썸네일 관리자 */
+	width:225px;
+	float:left;
+	height:227px;
+}
+.Wall210 {
+	width:210px;
+	height:227px;
+	float:left;
+}
+
+.thumbnailWall img { /* 월페이퍼 썸네일 이미지  */
+	width:200px;
+	height:154px;
+	border:1px solid #FFF;
+	background:#FFF;
+	padding:0px;
+	display:block;
+}
+* html .thumbnailWall { /* 월페이퍼 썸네일  */
+	width:210px;
+	height:164px;
+	border:1px solid #CDCBBF;
+	background:#EDECE1;
+	padding:3px;
+	color:#737269;
+	font-weight:bold;
+	text-align:center;
+}
+
+.thumbnailWall { /* 월페이퍼 썸네일  */
+	width:202px;
+	height:164px;
+	border:1px solid #CDCBBF;
+	background:#EDECE1;
+	padding:3px;
+	color:#737269;
+	font-weight:bold;
+	text-align:center;
+}
+
+.WallBtnLeft { /* 월페이퍼 썸네일  */
+	width:108px;
+	height:19px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+.WallBtnLeft { /* 월페이퍼 썸네일  */
+	width:108px;
+	height:19px;
+	padding-top:5px;
+	padding-bottom:1px;
+	float:left;
+}
+.WallBtnRight { /* 월페이퍼 썸네일  */
+	width:102px;
+	height:19px;
+	padding-top:5px;
+	padding-bottom:1px;
+	float:left;
+}
+
+/***************************** 버그리포트 코딩 *****************************/
+* html .writeBox
+{
+	width:648px;
+	background-image:url(images/Bg_board_write02.jpg);
+	text-align:center;
+	padding-left:7px;
+	padding-bottom:5px;
+}
+.writeBox_top {
+    width:654px;
+	background-image:url(images/Bg_board_write01.jpg);
+	height:14px;
+}
+.writeBox_bottom
+ {
+    width:654px;
+	background-image:url(images/Bg_board_write03.jpg);
+	height:14px;
+}
+.writeBox_selectBox {
+	width:641px;
+	background-image:url(images/Bg_board_write02.jpg);
+	text-align:left;
+	padding-left:13px;
+}
+.writeBox_selectBTN
+{
+	padding-top:15px;
+	padding-left:6px;
+}
+.writeBox_select input {
+	border:1px solid #e5e5e5;
+	height:22px;
+	background:#FFFFFF;
+	text-align:left;
+	color:#999999;
+	padding-top:3px;
+	padding-left:5px;
+}
+.writeBox {
+	width:647px;
+	_width:633px;
+	background-image:url(images/Bg_board_write02.jpg);
+	text-align:center;
+	margin:0;
+	padding:0 0 0 7px;
+	padding-bottom:3px;
+	padding-top:3px;
+}
+.writeBox select {
+	height:18px;
+	font-family:芥竟;
+	font-size:12px;
+	border:1px solid #e5e5e5;
+}
+
+.writeBox Select {
+	width:129px;
+	height:18px;
+	font-family:芥竟;
+	font-size:12px;
+	border:1px solid #e5e5e5;
+}
+.writeBox input {
+	border:1px solid #e5e5e5;
+	padding-left:5px;
+	padding-top:3px;
+	height:22px;
+	background:#FFFFFF;
+	text-align:left;
+	color:#999999;
+	width:401px;
+}
+.Left11 {
+	padding-left:11px;
+}
+
+* html .fileAttack {
+	padding-left:13px;
+	padding-top:6px;
+	padding-bottom:6px;
+	width:649px;
+	height:30px;
+	border-bottom:1px solid #EBEBEB;
+}
+
+.fileAttack {
+	padding-left:13px;
+	padding-top:6px;
+	padding-bottom:6px;
+	width:649px;
+	border-bottom:1px solid #EBEBEB;
+}
+
+.LoginName {
+	font-family:dotum dotumche;
+	font-size:11px;
+	padding-left:5px;
+}
+
+.LoginNameBold {
+	font-family:dotum dotumche;
+	font-size:12px;
+	color:#293747;
+	font-weight:bold;
+}

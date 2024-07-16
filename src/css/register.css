@@ -1,0 +1,42 @@
+﻿@charset "utf-8";
+@Import url("common.css");
+
+div.content_wrap div.content_download { margin:10px 16px 0 320px; width:1704px; }
+
+/***** Client Download *****/
+div.content_download p.sep { clear:center; width:100%; height:20px; }
+div.content_download p.desc { width:706px; margin-bottom:10px; }
+div.content_download div.sub_title { clear:left; float:left; width:706px; height:30px; margin:0 0 10px 0px; border:1px solid #313131; background:#040404; }
+div.content_download div.sub_title p { float:left; line-height:31px; font-weight:bold; color:#a7a7a7; margin:0; padding:0; }
+
+div.content_download div.note a { color:#9e561b; text-decoration:underline; }
+div.content_download table.system { border-collapse:collapse; clear:left; float:left; width:704px; }
+div.content_download table.system thead th { height:30px; border:1px solid #042014; font-weight:bold; background-color:#000f0a; color:#024c33; }
+div.content_download table.system thead th.sys { background-color:#000000; }
+div.content_download table.system tbody td, table.system tbody th { height:30px; border:1px solid #042014; text-align:center; }
+div.content_download table.system tbody th { background-color:#000f0a; font-weight:bold; }
+div.content_download ul.driver { list-style-type:none; clear:left; width:680px; height:auto !important; margin:20px 0 0 20px; padding:0; }
+div.content_download ul.driver li { float:left; width:340px; height:82px; }
+div.content_download ul.driver li img { float:left; }
+div.content_download ul.driver li p { float:left; margin:10px; width:200px; }
+div.content_download ul.driver li p a { color:#9e561b; text-decoration:underline; }
+/***** Wall Papers *****/
+ul.wallpaper_wrap { margin:0 0 0 5px; width:728px; height:auto !important; padding:0; list-style-type:none; }
+ul.wallpaper_wrap li { float:left; margin-bottom:5px; }
+ul.wallpaper_wrap li div.box { float:left; width:236px; height:205px; border:1px solid #323232; margin-right:7px; background-color:#000;}
+ul.wallpaper_wrap li div.last { margin-right:0; }
+ul.wallpaper_wrap li div.box p { margin:5px; width:226px; height:138px; overflow:hidden;  }
+ul.wallpaper_wrap li div.box p img { width:226px; height:138px; }
+ul.wallpaper_wrap li div.btn { margin-bottom:4px; }
+ul.wallpaper_wrap li div.btn img { margin-left:5px; width:810px; height:23px; cursor:pointer; }
+ul.wallpaper_wrap li.page { clear:both; float:left; width:709px; height:70px; padding:20px 10px 10px 0; }
+ul.wallpaper_wrap li.page div.page_wrap { float:left; width:40%; }
+/***** Movie Clip *****/
+div.movie_wrap { width:640px; height:385px; margin:57px 44px 0 44px; background-color:#000; }
+div.movie_list { clear:left; width:638px; height:127px; margin:10px 44px; border:1px solid #90d1f9; background-color:#f0f0f0; }
+div.movie_list div.movie_prev { float:left; }
+div.movie_list div.movie_next { float:right; }
+div.movie_list ul { float:left; width:558px; height:105px; margin:10px; padding:0; list-style-type:none; }
+div.movie_list ul li { float:left; width:172px; height:105px; }
+div.movie_list ul li.sep { float:left; width:1px; height:103px; background-color:#d9d9d9; overflow:hidden; border:none; margin:0 10px; }
+div.movie_list ul li img {width:172px; height:105px; }

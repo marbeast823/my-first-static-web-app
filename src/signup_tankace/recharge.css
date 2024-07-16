@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+body { background-color:#000; margin:0; padding:0; }
+body, table, tr, td, select, input, textarea, div { font-family:arial; font-size:12px; color:#4B4B4B; }
+table { border-collapse:collapse; border-spacing:0; }
+em, cite, address, dfn, var { font-style:normal; }
+form, p, div { margin:0px; }
+img { border:0; }
+
+a { text-decoration:none; color:#4B4B4B; }
+a:hover, a:active, a:focus { text-decoration:underline;}
+
+dl, ul, ol { 
+	list-style:none; 
+	margin:0px; 
+	padding:0px;
+	text-align:left;
+}
+
+div.page { position:relative; float:left; width:100%; height:auto; min-width:987px; min-height:1063px; z-index:0; background:url(signup_tankace/images/tankace/signup/recharge.jpg) no-repeat center top; }
+
+div.page2 { position:relative; float:left; width:100%; height:auto; min-width:987px; min-height:1063px; z-index:0; background:url(signup_tankace/images/tankace/signup/recharge.jpg) no-repeat center top; }
+/* Main Logo */
+div.main_logo { position:relative; width:987px; margin:0 auto;}
+div.logo_link { position:absolute; width:250px; height:95px; left:370px; top:70px; cursor:pointer; }
+div.logo_link a { display:inline-block; width:100%; height:100%; text-decoration:none; }
+
+div.main { position:relative; width:987px; height:auto !important; margin:265px auto 0; padding-bottom:50px; }
+
+div.footer { position:relative; float:left; width:100%; height:125px; background:url(images/tankace/signup/page_signup_footer.jpg) no-repeat center top; }
+
+div.footer .logos { position:relative; padding:0; margin:0 auto; text-align:center; width:987px; }
+div.footer .logos div { position:absolute; cursor:pointer; width:140px; height:45px; top:15px; left:0px; }
+div.footer .logos .dev { left:520px; width:120px; }
+div.footer .logos div a { display:inline-block; width:100%; height:100%; text-decoration:none; }
+
+/* Main Contents Wrap */
+div.main div.container { float:left; padding:0; margin:0; padding-bottom:40px; }
+div.main div.container div.left_wrap, div.main div.container div.center_wrap, div.main div.container div.right_wrap, div.main div.container div.content_wrap { float:left; height:auto !important; overflow:hidden; }
+div.left_wrap { width:490px; }
+div.content_wrap { width:490px; padding-bottom:40px;}
+/* Main Contents Wrap */
+
+
+/* Left_Wrap */
+div.movie { margin-left:25px; width:459px; height:303px;}
+
+div.feature_wrap { margin-top:51px; margin-left:24px; width:461px; height:262px; }
+
+.feature_wrap div.feature_list {
+	margin:0 2px;
+	width:455px;
+	height:256px;
+}
+
+.feature_wrap div.feature_list ul 
+{
+	margin-top:10px;
+	width:455px;
+	height:256px;
+}
+
+.feature_wrap div.feature_list ul li h1 {
+	margin:0 0 0 20px;
+	color:#814918;
+	margin-top:0px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.feature_wrap div.feature_list ul li h2 {
+	margin:0 0 0 20px;
+	color:#814918;
+	margin-top:0px;
+	font-size:12px;
+	font-weight:normal;
+}
+
+.feature_wrap div.feature_list ul li ul {
+	width:340px;
+	height:auto;
+	list-style-type:square;
+	margin:8px 0 20px 20px;
+	padding-left:15px;
+	font-weight:bold;
+	color:#cfcfcf;
+}
+
+.feature_list .jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+.feature_list .jScrollPaneTrack, .feature_list .jScrollPaneDrag { 
+	background:url(images/tankace/signup/bg_scroll_feat.gif); 
+}
+
+div.feature_list .jScrollPaneTrack {
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background-position:0 0;
+	background-repeat: repeat-y;
+}
+.feature_list .jScrollPaneDrag {
+	position: absolute;
+	cursor: pointer;
+	overflow: hidden;
+	background-position:-14px 0;
+	background-repeat:repeat-y;
+	height:31px;
+	max-height:31px;
+	min-height:31px;
+}
+.feature_list a.jScrollArrowUp {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	/*background-color: #666;*/
+	height: 9px;
+}
+.feature_list a.jScrollArrowUp:hover {
+	/*background-color: #f60;*/
+}
+
+.feature_list a.jScrollArrowDown {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	/*background-color: #666;*/
+	height: 9px;
+}
+.feature_list a.jScrollArrowDown:hover {
+	/*background-color: #f60;*/
+}
+.feature_list a.jScrollActiveArrowButton, .feature_list a.jScrollActiveArrowButton:hover {
+	/*background-color: #f00;*/
+}
+/* Left_Wrap */
+
+
+/* Content_Wrap */
+div.content_wrap { min-height:600px; }
+div.sign { clear:left; float:left; margin-top:57px; margin-left:15px; text-align:center; }
+/* Content_Wrap */
+
+
+/* Signup */
+.signup_content_wrap { clear:left; float:left; width:437px; height:495px; margin:5px 7px 0 7px; background:#ffffff; }
+.signup_content_wrap div p { margin-left:15px; }
+.signup_content_wrap div p em { font-weight:bold; color:#369D18; }
+.signup_content_wrap .title { width:100%; height:40px; line-height:40px; border-bottom:1px solid #E1E1E1; font-size:12pt; }
+.signup_content_wrap .info { width:100%; height:40px; line-height:40px; }
+
+.signup_content_wrap table { width:100%; height:auto; border:none; border:1px solid #c8c8c8; margin-bottom:6px; }
+.signup_content_wrap table th { width:125px; border:none; border-bottom:1px solid #c8c8c8;border-right:1px solid #c8c8c8; background-color:#FAFAFA; text-align:left; vertical-align:top; padding:5px 0; }
+.signup_content_wrap table td { min-height:38px; border:none; border-bottom:1px solid #c8c8c8; text-align:left; padding:2px 0; }
+.signup_content_wrap table th p { margin-left:10px; line-height:20px; font-size:8pt; }
+.signup_content_wrap table th p b { margin:3px; color:#FF0000; }
+.signup_content_wrap table td p { float:left; width:250px; margin-left:10px; padding:5px; background-color:#F7F7F7; border:1px solid #D3D3D3; }
+.signup_content_wrap table td input { margin-left:5px; width:295px; height:20px; background-color:#F0F0F0; border:1px solid #D3D3D3; }
+
+.signup_content_wrap table td div.vcode { float:left; width:142px; max-height:35px; margin-left:5px; margin-top:7px; padding:0; background-color:#E1E1E1; }
+.signup_content_wrap table td div.vcode img { float:left; width:100px; height:35px; margin:0; padding:0; }
+.signup_content_wrap table td div.vcode input.verif { clear:none; float:left; width:70px; height:15px; margin:-1px; border:1px solid #FFFFFF; background-color:#ACACAC; }
+.signup_content_wrap table td div.vcode_msg  { clear:left; padding-left:5px; line-height:16px; color:#888888; background-color:#FAFAFA; }
+.signup_content_wrap table td div.vcode_refresh  { padding-left:200px;padding-bottom:10px; background-color:#FAFAFA; }
+.signup_content_wrap table td a.refresh { line-height:14px; text-decoration:underline; color:#369D18; }
+
+.signup_content_wrap table td input.rad { width:18px; height:14px; background-color:#FFFFFF; border:0px; }
+.signup_content_wrap table td .msg { clear:left; margin-left:5px; line-height:16px; color:#888888; }
+.signup_content_wrap table td .verifi_wrap { position:relative; float:left; margin:0px; padding:0px; }
+.signup_content_wrap table td .qsize { margin-left:5px; width:295px; }
+.signup_content_wrap table .hsize { height:40px; }
+.signup_content_wrap table .hsize2 { height:65px; }
+
+.signup_content_wrap div.desc { margin:15px; }
+.signup_content_wrap div.btns { text-align:center; margin-bottom:0px; }
+
+#frmRegister input:focus { border: 1px dotted black; background-color:#F0F0F0; }
+#frmRegister input.error { border: 1px dotted red; background-color:#E6C2C1; }
+#frmRegister label.error { float: none; color: red; padding-left: .5em; vertical-align: top; font-size:8pt; }
+#frmRegister label.success { color:Blue; }
+/* Signup */
+
+/* Download */
+.download_content_wrap { clear:left; float:center; width:425px; height:390px; margin:5px 7px 0 7px; background:#FFFFFF;) top center no-repeat; }
+.download_content_wrap .message { background-color:#F5F5F5; padding-bottom:15px; border-bottom:1px solid #C8C8C8; }
+.download_content_wrap .message h1 { margin:15px 0 0 16px; font-size:14px; text-align:left; }
+.download_content_wrap .message p.main { width:405px; margin:20px 0 0 16px; text-align:left; }
+
+.download_content_wrap .download { padding-top:20px; }
+.download_content_wrap .download .btn_bottom { margin:15px 119px; width:200px; height:45px; padding:5px 0 10px 0; cursor:pointer; border:none; color:#ffffff; font-size:14px; font-weight:bold; background:url(images/driftcity/signup/btn.gif) no-repeat; }
+.download_content_wrap .download a { color:#cf6914; font-size:11px; font-weight:bold; font-family:Arial; text-decoration:underline; }
+
+.download_content_wrap .link { text-align:left;padding-left:16px; }
+.download_content_wrap .link a { color:#cf6914; font-size:11px; font-weight:bold; font-family:Arial; text-decoration:underline; }
+/* Download */

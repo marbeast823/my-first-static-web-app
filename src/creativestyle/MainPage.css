@@ -1,0 +1,108 @@
+﻿body { background:#ecf9ff url(images/bg_head.jpg) no-repeat center 0px; }
+#wrap { width:895px; padding:0 1px; _width:897px; }
+#navigation { margin:0 0 207px -1px; }
+#gameStart { width:153px; height:265px; top:165px; margin-left:17px; z-index:0; }
+#mainVisual { width:597px; height:421px; position:absolute; top:-6px; margin:0 0 0 250px; z-index:5; padding:0; }
+#contentsWrap { background:url(images/main_container.jpg) no-repeat 0 top; height:582px; z-index:4; }
+#div {background:url(images/loginbg2.jpg) no-repeat 0 top; height:57px; z-index:4; }
+#divdiv {background:url(images/loginbg2.jpg) no-repeat 0 top; height:57px; z-index:4; }
+#contentsNavi { width:216px; float:left; margin:0; padding:0; }
+#contentsBody { width:441px; float:left; margin:0; padding:0; z-index:6; }
+#contentsExt { width:228px; float:left; margin:0; padding:0; }
+div.upstairs { height:279px !important; _height:307px !important; padding:14px !important; margin-bottom:11px; }
+
+#quickMenu { width:186px; height:114; margin:25px 15px 0 15px; _margin-top:-15px; }
+#mainBanner { width:186px; height:90px; margin:5px 15px 15px 15px; }
+#noticeBox h3 img { margin:12px 0 5px 0; }
+#noticeBox h3 img { float:left; }
+#noticeBox h3 a { display:block; padding-top:6px; float:right; }
+#noticeBox ul li { display:block; width:412px; height:20px; }
+#noticeBox ul li a { display:block; float:left; background:url(images/bu_circle.gif) no-repeat 0 7px; padding:5px 0 3px 13px; }
+#noticeBox ul li span.date { display:block; float:right;  text-decoration:none; color:#999; padding-top:3px; }
+
+#issuetalkBox {
+	margin:28px 15px 0 15px;
+	 _margin:-12px 10px 0 15px;
+	width:416px;
+	height:72px;
+	text-align:left;
+	background:url(images/btn_hotissue.gif) no-repeat 0 center;
+}
+#issuetalkBox a {
+	margin-left:5px;
+	display:block;
+	letter-spacing:0em;
+}
+.btn{cursor:hand;BORDER-RIGHT: #7AE25A 1px solid; BORDER-TOP: #7AE25A 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #7AE25A 1px solid; BORDER-BOTTOM: #7AE25A 1px solid;  color:#000000;FONT-FAMILY: "Verdana"; HEIGHT: 24px; width:60px; BACKGROUND-COLOR: #fefbf5}
+.btn1{cursor:hand;BORDER: #333333 1px solid; FONT-SIZE: 9pt; color:#000000;FONT-FAMILY: "Verdana"; HEIGHT: 24px; width:60px; BACKGROUND-COLOR: #eeeeee}
+.btn2{
+BORDER: #2F89EF 1px solid;
+FONT-SIZE: 9pt;
+color:#000000;FONT-FAMILY: "Verdana"; HEIGHT: 24px; width:60px; BACKGROUND-COLOR: #BAD9FB}
+.btn3{text-decoration: none;padding-top:5px;cursor:hand;BORDER-RIGHT: #7AE25A 1px solid; BORDER-TOP: #7AE25A 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #7AE25A 1px solid; BORDER-BOTTOM: #7AE25A 1px solid;  color:#000000;FONT-FAMILY: "Verdana"; HEIGHT: 24px; width:60px; BACKGROUND-COLOR: #fefbf5}
+.btn01{
+BORDER: #2F89EF 1px solid;
+FONT-SIZE: 9pt;
+cursor:hand;
+color:#000000;FONT-FAMILY: "Verdana"; HEIGHT: 22px; width:60px; BACKGROUND-COLOR: #BAD9FB}
+
+
+.btn02{text-decoration: none;padding-top:4px;cursor:hand;BORDER-RIGHT: #CD9F01 1px solid; BORDER-TOP: #CD9F01 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #CD9F01 1px solid; BORDER-BOTTOM: #CD9F01 1px solid;  color:#000000;FONT-FAMILY: "Verdana"; HEIGHT: 22px; width:60px; BACKGROUND-COLOR: #F8F4D0}
+.btn002{text-decoration: none;padding-top:4px;cursor:hand;BORDER-RIGHT: #CD9F01 1px solid; BORDER-TOP: #CD9F01 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #CD9F01 1px solid; BORDER-BOTTOM: #CD9F01 1px solid;  color:#000000;FONT-FAMILY: "Verdana"; HEIGHT: 22px; width:130px; BACKGROUND-COLOR: #F8F4D0}
+.validatorCalloutHighlight {
+	BACKGROUND-COLOR: lemonchiffon
+}
+#screenshotBox { width:416px; height:120px; margin:18px 10px 15px 15px; }
+#screenshotBox h3 img { float:left; }
+#screenshotBox h3 a { display:block; padding-top:6px; float:right; }
+#screenshotBox div.bx_shot { clear:both; margin:10px 0 0 0; padding:0; }
+#screenshotBox div.bx_shot a { display:block; float:left; margin-left:7px; }
+#screenshotBox div.bx_shot a.first { margin-left:0px; }
+#eventBanner { width:200px; height:142px; margin:12px 12px 16px 16px; }
+#movieBox { width:208px; height:114px; margin:40px 15px 0 15px; }
+#contentsExt a.bannerButton { display:block; width:208px; margin:0 15px 0 15px; }
+
+/* loginBox */
+#loginIDNPW {
+    width:136px;
+    float:left;
+    text-align:left;
+}
+#loginIDNPW input {
+    color:#fff;
+    font-weight:bold;
+    font-size:9pt;
+    height:17px;
+    width:109px;
+    padding:3px 0 0 0;
+    margin:0 0 0 7px;
+}
+#loginIDNPW div.loginInputBack { background:url(images/bg_idpw.gif) no-repeat 0 0; margin-top:4px; }
+#txtLocalID { background:url(images/id_txt.gif) no-repeat 2px 3px; }
+#txtLocalID.clearBg { background-image:none; }
+#txtPassword { background:url(images/pw_txt.gif) no-repeat 2px 3px; }
+#txtPassword.clearBg { background-image:none; }
+#loginButton { display:block; margin:32px 0 0 0; float:left; padding:0; }
+.loginSecuritySetting {
+	text-align:left;
+    height:20px;
+    margin:7px 0 7px 10px;
+    color:#5899c6;
+    clear:both;
+}
+#loginBox div.userinfo
+{
+	margin:39px 0 0 0;
+	width:186px;
+	height:77px;
+	background:url(images/bg_login.gif) no-repeat 0 0;
+	text-align:left;
+}
+#loginBox div.userinfo div.infobox { float:left; margin:13px 0 10px 13px; _margin:13px 3px 10px 5px; width:110px; }
+#loginBox div.userinfo div.id { width:110px;  color:#5899c6; font-weight:bold; }
+#loginBox div.userinfo div.welcome { margin-top:10px; width:110px;  color:#5899c6; line-height:15px; }
+#loginBox div.userinfo div.logout { float:right; height:48px; margin:6px 6px 0 0; _margin-right:3px; }
+#loginBox div.userinfo div.info { margin-top:15px; clear:both; }
+
+a { color:#5899c6 !important; }
+a:hover { color:#ffaa3f !important; }

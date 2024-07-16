@@ -1,0 +1,207 @@
+﻿@charset "utf-8";
+
+/***** Global *****/
+.hide { display:none; }
+img { border:none; margin:0; padding:0; }
+caption, legend { display:none; }
+div.clear { clear:both; }
+ul, ol, dl, li, dt, dd { margin:0; padding:0; }
+ul, ol { list-style:none; }
+/***** Layout *****/
+body { margin:0; padding:0; background-image:none; background-color:#000000; }
+body, table, tr, td, select, input, textarea, div { font-family:arial; font-size:12px; color:#646464; }
+em, cite, address, dfn, var { font-style:normal; }
+form { margin:0; }
+a { text-decoration:none; color:#606060; }
+a:hover, a:active, a:focus { text-decoration:underline;}
+/***** Page *****/
+div.page { position:relative; float:left; width:100%; min-width:987px; height:auto; z-index:100; background:url(../images/tankace/common/page_bg.jpg) no-repeat center top; }
+div.main_logo { position:relative; width:987px; margin:0 auto; z-index:102; }
+div.logo_link { position:absolute; left:355px; top:60px; width:275px; height:105px; cursor:pointer; z-index:101; }
+div.logo_link a { display:inline-block; width:100%; height:100%; }
+div.main { position:relative; width:987px; height:auto !important; margin:240px auto 0 auto; z-index:99; }
+div.footer { position:relative; clear:both; margin-bottom:41px; width:100%; min-width:987px; height:123px; background:url(../images/tankace/common/footer.gif) bottom center no-repeat; z-index:98; margin-top:-68px; } /* margin-top:-68px; */
+div.footer div.info { float:left; width:100%; margin-top:30px; padding-bottom:10px; text-align:center; color:#232323; border-bottom:1px solid #1a1a1a; }
+div.footer div.info a { color:#646464; margin:0 8px; }
+div.footer div.company { clear:left; position:relative; width:987px; margin:0 auto; text-align:center; }
+div.footer div.company a { position:absolute; top:10px; left:0px; display:inline-block; width:130px; height:45px; }
+div.footer div.company a.dev { left:520px; width:115px; }
+/***** Main Navigation Bar *****/
+div.mnb { position:relative; width:987px; height:55px; z-index:100; }
+div.mnb div.menu { float:left; margin-right:10px; width:125px; height:55px; cursor:pointer; }
+div.mnb div.menu a { display:inline-block; width:100%; height:100%; }
+div.mnb div#mnb1 { position:absolute; left:0px; width:270px; height:55px; cursor:pointer; }
+div.mnb div#mnb2 { position:absolute; left:270px; width:110px; height:55px; cursor:pointer; }
+div.mnb div#mnb3 { position:absolute; left:380px; width:130px; height:55px; cursor:pointer; }
+div.mnb div#mnb4 { position:absolute; left:510px; width:120px; height:55px; cursor:pointer; }
+div.mnb div#mnb5 { position:absolute; left:630px; width:120px; height:55px; cursor:pointer; }
+div.mnb div#mnb6 { position:absolute; left:750px; width:135px; height:55px; cursor:pointer; }
+div#mnb1sub, div#mnb2sub, div#mnb3sub, div#mnb4sub, div#mnb5sub , div#mnb6sub { position:absolute; top:55px; left:5px; background:url(../images/tankace/common/mnbsub_bg.gif) no-repeat; width:977px; height:38px; z-index:10; }
+div#mnb1 a, div#mnb2 a, div#mnb3 a, div#mnb4 a, div#mnb5 a, div#mnb6 a { display:inline-block; width:100%; height:100%; text-decoration:none; } 
+div#mnb1sub ul { margin-left:30px; }
+div#mnb2sub ul { margin-left:250px; }
+div#mnb3sub ul { margin-left:350px; }
+div#mnb4sub ul { margin-left:400px; }
+div#mnb5sub ul { margin-left:560px; }
+div#mnb6sub ul { margin-left:770px; }
+div.mnb div ul { list-style:none; margin:5px 0px; }
+div.mnb div ul li { float:left; margin:0 15px; line-height:28px; }
+div.mnb div ul li a { font-weight:bold; color:#D7D7D7; text-decoration:none; }
+div.mnb div ul li a:hover { color:#9E561B; text-decoration:underline; }
+div.mnb div ul li.selected a { color:#9E561B; text-decoration:underline; }
+div.mnb div ul li.sep { margin:0px; padding:0; color:#565656; background-color:transparent; }
+/***** Main Contents Wrap *****/
+div.main div.container { float:left; padding:0 4px; margin:5px 0 0 0; width:979px; background:#191919; }
+div.main div.container div.left_wrap, div.main div.container div.center_wrap, div.main div.container div.right_wrap, div.main div.container div.content_wrap { float:left; height:auto !important; overflow:hidden; }
+div.main div.container div.seo { clear:both; float:left; width:947px; margin:50px 20px 20px 20px; padding:0; }
+div.main div.container div.seo b, div.main div.container div.seo a { color:#004d33; }
+
+div.left_wrap { width:232px; margin:0px; }
+div.center_wrap { width:503px; margin:0 5px; }
+div.right_wrap { width:232px; margin:0px; }
+div.content_wrap { width:740px; margin-left:5px; padding-bottom:50px; }
+/***** Icons & Buttons *****/
+div.icons { float:left; background:url(../images/tankace/common/icons_bg.gif) no-repeat; overflow:hidden; }
+div.ico_stay p, div.ico_up p, div.ico_down p { float:right; width:16px; font-size:11px; text-align:left; } /* ranking */
+div.ico_buy { width:52px; height:15px; background-position:0 0; cursor:pointer; }
+div.ico_update { width:37px; height:12px; background-position:0 -15px; }
+div.ico_notice { width:37px; height:12px; background-position:-37px -15px; }
+div.ico_ongoing { width:37px; height:12px; background-position:-74px -15px; }
+div.ico_coming { width:37px; height:12px; background-position:-148px -15px; }
+div.ico_done { width:37px; height:12px; background-position:-111px -15px; }
+div.ico_user { width:37px; height:11px; background-position:0 -27px; }
+div.ico_gm { width:37px; height:11px; background-position:-37px -27px; }
+div.ico_num1 { width:30px; height:30px; background-position:0 -38px; }
+div.ico_num2 { width:30px; height:30px; background-position:-30px -38px; }
+div.ico_num3 { width:30px; height:30px; background-position:-60px -38px; }
+div.ico_num4 { width:30px; height:30px; background-position:-90px -38px; }
+div.ico_num5 { width:30px; height:30px; background-position:-120px -38px; }
+div.ico_stay { width:30px; height:30px; background-position:0 -68px; }
+div.ico_up { width:30px; height:30px; background-position:-30px -68px; }
+div.ico_down { width:30px; height:30px; background-position:-60px -68px; }
+div.ico_more { float:right; margin:5px; width:20px; height:20px; background-position:-4px -95px; cursor:pointer; }
+div.ico_sign { width:11px; height:12px; background-position:-52px 0px; margin:4px 6px 0 0; }
+div.ico_sign_cred { width:3px; height:3px; background-position:-63px 0px; margin:13px 5px 0 0; }
+div.ico_sign_acct { width:4px; height:7px; background-position:-66px 0px; margin:7px 0 0 0; }
+div.ico_bul1 { width:13px; height:16px; background-position:0 -114px; }
+div.ico_lbox_stay { width:10px; height:20px; background-position:-8px -74px; }
+div.ico_lbox_up { width:13px; height:20px; background-position:-31px -73px; }
+div.ico_lbox_down { width:10px; height:20px; background-position:-61px -73px; }
+div.ico_lnb { width:3px; height:3px; background-position:-70px 0; margin:14px 5px 0 13px; }
+/***** Common BBS buttons *****/	
+input.bbs { margin-right:5px; padding-bottom:3px; width:64px; height:22px; color:#fff; font-weight:bold; border:0; cursor:pointer; background:url(../images/tankace/common/btn_bbs.gif) no-repeat; }
+input.gray { background:url(../images/tankace/common/btn_bbs_gray.gif) no-repeat; }
+/***** Container more buttons *****/
+div.btn_more { float:right; margin:5px 5px 0 0; width:22px; height:22px; }
+div.btn_more a { display:inline-block; width:100%; height:100%; }
+/***** Title Bars *****/
+div.titles { clear:left; float:left; margin-top:5px; height:33px; background:url(../images/tankace/common/main_titles_bg.gif) no-repeat; }
+div.title_mate { width:232px; background-position:0 -99px; }
+div.title_news { width:503px; background-position:0 0px; }
+div.title_gallery { width:503px; background-position:0 -33px; }
+div.title_live { width:503px; background-position:0 -66px; }
+div.title_trailer { width:232px; background-position:0 -132px; }
+div.title_facebook { width:232px; background-position:0 -165px; }
+div.title_ranking { width:232px; background-position:0 -198px; }
+div.title_newsticker { width:232px; background:url(../images/tankace/common/title_newsticker.gif) no-repeat; }
+/***** Title Bars 2*****/
+div.status { clear:left; float:left; margin-top:5px; height:33px; background:url(../images/tankace/common/main_titles_bg2.gif) no-repeat; }
+div.title_status { width:232px; background-position:0 -99px; }
+div.title_rank2 { width:232px; background-position:0 -132px; }
+div.title_ranks { width:232px; background-position:0 -198px; }
+
+/***** Local Navigation Bar *****/
+div.lnb { clear:left; float:left; margin-top:5px; width:232px; height:42px; background:url(../images/tankace/common/lnb_title_bg.gif) no-repeat; }
+div.lnb_download { background-position:0 0; }
+div.lnb_news { background-position:0 -42px; }
+div.lnb_guide { background-position:0 -84px; }
+div.lnb_community { background-position:0 -126px; }
+div.lnb_itemshop { background-position:0 -168px; }
+div.lnb_support { background-position:0 -210px; }
+div.lnb_rank { background-position:0 -252px; }
+ul.lnb_menu { list-style:none; }
+ul.lnb_menu li { width:230px; min-height:30px; line-height:30px; border-bottom:1px solid #272727; }
+ul.lnb_menu li.last { border-bottom:none }
+ul.lnb_menu li a { color:#a7a7a7; font-size:12px; font-weight:bold; }
+ul.lnb_menu li a.selected { color:#9e561b; text-decoration:underline; }
+
+/***** Left_Wrap ****************************************/
+
+/***** Side Containers *****/
+div.contside { clear:left; border:1px solid #323232; border-top:none; width:230px; background-color:#0F0F0F; }
+div.rankside { clear:left; border:1px solid #323232; border-top:none; width:230px; background-color:#0F0F0F; }
+div.banner_sub { clear:left; float:left; width:232px; margin-top:6px; } 
+/***** Sign In Box - Signed Out *****/
+div.sign_wrap { width:232px; height:206px; overflow:hidden; background:url(../images/tankace/common/sign_bg.gif) no-repeat; }
+div.sign_wrap div.title { float:left; width:220px; height:27px; margin:6px; background:url(../images/tankace/common/sign_title.gif) no-repeat; }
+div.sign_wrap div.title a { margin-left:153px; color:#a68500; font-weight:bold; text-decoration:underline; font-size:12px; height:27px; line-height:27px; }
+div.sign_wrap div.sign_off { background-position:0 0; }
+div.sign_wrap div.sign_on { background-position:0 -30px; }
+div.sign_wrap a { color:#646464; }
+div.sign_wrap fieldset { clear:left; margin:0; padding:0 0 0 11px; border:0; }
+div.sign_wrap fieldset div.signin { float:left; width:144px; height:49px; }
+div.sign_wrap fieldset div.signin input { float:left; width:137px; height:21px; margin:0px; padding:0px; border:1px solid #323232; line-height:21px; color:#a7a7a7; background:#000000 url(../images/tankace/common/sign_input_bg.gif) no-repeat; }
+div.sign_wrap fieldset div.signin input#uid { background-position: 0 0; text-indent:6px; }
+div.sign_wrap fieldset div.signin input#pwd { background-position: 0 -21px; text-indent:6px; margin-top:3px; }
+div.sign_wrap fieldset p { float:left; height:49px; margin:0; padding:0; }
+div.sign_wrap fieldset ul { list-style-type:none; margin:0; margin:0; clear:left; float:left; padding:7px 0 7px 0; height:50px; } /* margin:10px 0 0 10px; */
+div.sign_wrap fieldset ul li { margin:0; padding:0; clear:left; float:left; width:200px; height:17px; line-height:17px; overflow:hidden; }
+div.sign_wrap fieldset ul li input { float:left; margin:0; padding:0; margin-right:4px; width:13px; height:13px; }
+div.sign_wrap fieldset ul li label { float:left; font-size:11px; line-height:13px; color:#534a00; }
+div.sign_wrap fieldset ul li span { text-decoration:underline; font-weight:bold; }
+div.sign_wrap fieldset ul li a { font-size:11px; text-decoration:none; vertical-align:top; color:#534a00; }
+div.sign_wrap fieldset ul li a span { font-weight:bold; text-decoration:underline; color:#9c571e; }
+div.sign_wrap div.signup { clear:left; margin:0; padding:0 0 0 11px; }
+/***** Sign In Box - Signed In *****/
+div.sign_wrap div.user_info { clear:left; float:left; width:210px; margin:0; padding:0 0 0 16px; color:#646464; }
+div.sign_wrap div.sign_info { float:left; width:139px; height:49px; margin:0; padding:0; color:#646464; }
+div.sign_wrap div.sign_info p { margin:0; padding:0; height:49px; font-weight:bold; color:#9c571e; }
+div.sign_wrap div.sign_info p a { color:#9c571e; }
+div.sign_wrap div.sign_info p span { color:#646464; font-weight:normal; }
+div.sign_wrap div.sign_info p span a { color:#646464; }		
+div.sign_wrap div.sep { float:left; width:210px; height:2px; margin:0 0 0 11px; background:url(../images/tankace/common/sign_sep.gif) no-repeat; }
+div.sign_wrap p { float:left; margin:0; padding:0; }
+div.sign_wrap div.user_info dl { float:left; margin:0; padding:0; }
+div.sign_wrap div.user_info dl dt { float:left; width:100px; height:29px; line-height:29px; }
+div.sign_wrap div.user_info dl dd { float:left; width:100px; height:29px; line-height:29px; text-align:right; font-weight:bold; margin:0; padding:0; }
+div.sign_wrap div.user_info dl dd a { color:#534a00; }
+div.sign_wrap div.myaccount { clear:left; float:left; width:68px; height:21px; line-height:21px; margin:5px 0 5px 146px; text-align:right; }
+/***** News Ticker *****/
+div#news_ticker_cont { height:92px; overflow:hidden; }
+div.news_ticker { height:92px; overflow:hidden; }
+div.news_ticker ul { list-style:none; margin:0; padding:0; overflow:hidden; }
+div.news_ticker ul li { float:left; text-align:left; margin-left:3px; width:224px; height:30px; _height:30px; overflow:hidden; background:url(../images/tankace/common/bg_newsticker_off.gif) no-repeat; border-bottom:1px solid #3c3c3c; }
+div.news_ticker ul li div { position:relative; color:#5d5d5d; float:left; text-align:left; margin-left:26px; width:190px; overflow:hidden; height:100%; line-height:30px; }
+div.news_ticker a { color:inherit; text-decoration:none; }
+/***** Mate Ticker *****/
+div.mate_ticker { position:relative; padding-top:16px; margin:0 0 10px 47px; width:136px; text-align:center; }
+div.mate_ticker div.ticker_cont { width:136px; overflow:hidden; }
+div.mate_ticker ul li { width:136px; margin:0; }
+div.mate_ticker ul li img.mate { margin-bottom:2px; padding:4px; width:126px; height:80px; background:#000; border:1px solid #313131; }
+div.mate_ticker ul li b { color:#004d33; width:172px; }
+div.mate_ticker #prevBtn a, div.mate_ticker #nextBtn a { display:inline-block; text-indent:-8000px; left:-29px; position:absolute; top:45px; width:17px; height:33px; background:url(../images/tankace/common/mate_prev.gif) no-repeat; cursor:pointer; }
+div.mate_ticker #nextBtn a { left:149px; background:url(../images/tankace/common/mate_next.gif) no-repeat; }
+div.mate_ticker a { text-decoration:none; }
+/***** Ranking *****/
+div.mate_rank { position:relative; padding-top:16px; margin:0 0 10px 47px; width:136px; text-align:center; }
+
+/***** Content_Wrap ***************************************/
+
+div.content_wrap { min-height:600px; height:600px; width:738px; border:1px solid #323232; background:#0f0f0f; }
+div.content_wrap div.title { width:738px; height:59px; vertical-align:top; }
+div.content_wrap div.content_general { margin:10px 5px 0 5px; width:728px; }
+/***** Tab Menu *****/
+div.tabmenu { clear:left; width:726px; height:33px; margin:10px 5px; background:url(../images/tankace/common/bg_tabmenu.gif) repeat-x; border:1px solid #323232; }
+div.tabmenu ul { position:relative; float:left; list-style:none; height:29px; margin:4px 4px; padding:0; } /* tabs */
+div.tabmenu ul li { position:relative; float:left; margin-right:4px; height:29px; padding:0; }
+div.tabmenu ul li a { float:left; text-decoration:none; font-weight:bold; cursor:pointer; }
+div.tabmenu ul li div { width:116px; height:29px; line-height:29px; font-size:12px; letter-spacing:0em; text-align:center; background:#1b1b1b; color:#616161; }
+div.tabmenu ul li.selected div { height:30px; background:url(../images/tankace/common/bg_tab.gif) no-repeat; color:#bbbbbb; }
+div.tabmenu ul li.selected a { cursor:default; }
+div.tabmenu ul li a .ui-tabs-nav li.selected a { cursor:pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+
+.client_download { margin:20px 0; text-align:center; }
+.mirror_download { margin:10px 0; text-align:left; }
+a.mirror_client { position:relative; padding:0; margin:0 1px; width:170px; height:60px; display:inline-block; background:url(../images/common/button/mirror_download.png) no-repeat; text-decoration:none; }
+a.mirror_client:hover { text-decoration:none; }
+a.mirror_client em { position:absolute; top:30px; left:63px; width:100px; text-align:left; font-weight:bold; color:#4b4b4b; font-decoration:none; }

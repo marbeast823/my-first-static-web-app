@@ -1,0 +1,218 @@
+﻿@charset "utf-8";
+
+
+img {border:none;}
+.Clear { clear:both; padding:0px; margin:0px; font:0/0 arial; }
+
+form { padding:0px; margin:0px; }
+
+#wrapinner0 { width:960px; margin:0 auto; float:center; background:#141710;padding-top:0px;padding-left:6px;padding-right:6px;padding-bottom:0px;}
+#wrapinner { width:960px; margin:0 auto; float:center; }
+textarea {color:#8b8b8b;  border:1px solid #d2d3c7;}
+.iconText { vertical-align:-3px;}
+.iconTextList { margin:-3px 0 0 0;  }
+.fL {float:left;}
+.fR {float:right;}
+.text_left {text-align:left;}
+.text_center {text-align:center;}
+.img_middle {vertical-align:middle;}
+.img_top {vertical-align:top;}
+.tahomaf11 {font-family:Tahoma; font-size:11px;}
+.tahomaf10 {font-family:Tahoma; font-size:10px;}
+.png24 {
+    tmp:expression(setPng24(this));
+}
+
+a { color:#8b8b8b; text-decoration:none; }
+a:hover { color:#8b8b8b; text-decoration:underline; }
+
+input.idBG { background:url(../skin/common/bg_input_id.gif) left top no-repeat #fff;  }
+input.passBG { background:url(../skin/common/bg_input_pass.gif) left top no-repeat #fff;  }
+#header { height:324px; }
+#contentswrap  { position:relative; width:968px; }
+#leftmenu { float:left; position:relative; z-index:2; width:195px; }
+#rightmenu { float:left; position:relative; width:165px;}
+
+.form_pay {
+    color:#fff;
+    font-weight:bold;
+    font-size:9pt;
+    height:20px;
+    width:124px;
+    padding:5px 5px 0px 8px;
+    margin:0 0 0 0px;
+    text-align:left;
+
+background:url(images/bg_idpw.gif) no-repeat 0 0 ;
+
+
+}
+
+/* Common */
+.form_pay2 {
+    color:#fff;
+    font-weight:bold;
+    font-size:9pt;
+    height:20px;
+    width:244px;
+    padding:5px 5px 0px 8px;
+    margin:0 0 0 0px;
+    text-align:left;
+
+background:url(images/bg_idpw2.gif) no-repeat 0 0 ;
+
+
+}
+
+/* Common */
+.fc333 {color:#333;}
+.fc666 {color:#666;}
+
+.marginst01 {margin:15px 0 5px;}
+
+.mT15 {margin-top:15px;}
+.mL10 {margin-left:10px;}
+
+.pT12 {padding-top:12px;}
+.pT9 {padding-top:9px;}
+
+
+#aaa td{color:#999999}
+#aaa a{color:#999999}
+#aaa a:link{color:#999999;text-decoration:none; font-size: 12px;}
+#aaa a:visited{color:#999999; text-decoration:none; font-size: 12px;}
+#aaa a:hover{color:#999999; text-decoration:none; font-size: 12px;}
+#aaa a:active { color:#999999; text-decoration:none; }
+
+
+
+.bbb{
+	filter:progid:dximagetransform.microsoft.glow(color=#0057c8,strength=1);
+}
+A.button {
+	PADDING-RIGHT: 2px; BACKGROUND-POSITION: 0px -3px; OVERFLOW-Y: hidden; DISPLAY: inline-block; PADDING-LEFT: 0px; FONT-SIZE: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 2px 0px 0px; VERTICAL-ALIGN: middle;  CURSOR: pointer; COLOR: #2e523b; BORDER-TOP-STYLE: none; LINE-HEIGHT: 0; PADDING-TOP: -2px; BACKGROUND-REPEAT: no-repeat; FONT-STYLE: normal; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; POSITION: relative; HEIGHT: 20px; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+SPAN.button {
+	PADDING-RIGHT: 10px; BACKGROUND-POSITION: 0px -3px; OVERFLOW-Y: hidden; DISPLAY: inline-block; PADDING-LEFT: 0px; FONT-SIZE: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 4px 0px 0px; VERTICAL-ALIGN: middle;  CURSOR: pointer; COLOR: #2e523b; BORDER-TOP-STYLE: none; LINE-HEIGHT: 0; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; FONT-STYLE: normal; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; POSITION: relative; HEIGHT: 20px; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+DEL.button {
+	PADDING-RIGHT: 10px; BACKGROUND-POSITION: 0px -3px; OVERFLOW-Y: hidden; DISPLAY: inline-block; PADDING-LEFT: 0px; FONT-SIZE: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 4px 0px 0px; VERTICAL-ALIGN: middle;  CURSOR: pointer; COLOR: #2e523b; BORDER-TOP-STYLE: none; LINE-HEIGHT: 0; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; FONT-STYLE: normal; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; POSITION: relative; HEIGHT: 20px; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+A.button {
+	BACKGROUND-IMAGE: url(../images/form_buttons2.gif)
+}
+SPAN.button {
+	BACKGROUND-IMAGE: url(../images/form_buttons2.gif)
+}
+DEL.button {
+	BACKGROUND-IMAGE: url(../images/form_buttons2.gif)
+}
+A.button SPAN {
+	BACKGROUND-IMAGE: url(../images/form_buttons2.gif)
+}
+SPAN.button BUTTON {
+	BACKGROUND-IMAGE: url(../images/form_buttons2.gif)
+}
+SPAN.button INPUT {
+	BACKGROUND-IMAGE: url(../images/form_buttons2.gif)
+}
+DEL.button SPAN {
+	BACKGROUND-IMAGE: url(../images/form_buttons2.gif)
+}
+A.button SPAN {
+	PADDING-RIGHT: 13px; PADDING-bottom: 1px; BACKGROUND-POSITION: 100% -3px; DISPLAY: block; PADDING-LEFT: 4px; FONT-SIZE: 12px! important; RIGHT: -5px;  MARGIN: -0px -10px 0px 4px; VERTICAL-ALIGN: text-top; CURSOR: pointer; COLOR: #222; BORDER-TOP-STYLE: none; LINE-HEIGHT: 1; BACKGROUND-REPEAT: no-repeat; ZOOM: 1; FONT-STYLE: normal; BORDER-RIGHT-STYLE: none; WHITE-SPACE: nowrap; BORDER-LEFT-STYLE: none; LETTER-SPACING: 0px! important; POSITION: relative; TOP: 0px; HEIGHT: 20px; BACKGROUND-COLOR: transparent; BORDER-BOTTOM-STYLE: none
+}
+SPAN.button BUTTON {
+	PADDING-RIGHT: 13px; BACKGROUND-POSITION: 100% -3px; DISPLAY: block; PADDING-LEFT: 4px; FONT-SIZE: 12px! important; RIGHT: -5px; PADDING-BOTTOM: 8px; MARGIN: 0px -10px 0px 4px; VERTICAL-ALIGN: text-top; CURSOR: pointer; COLOR: #222; BORDER-TOP-STYLE: none; LINE-HEIGHT: 1; BACKGROUND-REPEAT: no-repeat; ZOOM: 1; FONT-STYLE: normal; BORDER-RIGHT-STYLE: none; WHITE-SPACE: nowrap; BORDER-LEFT-STYLE: none; LETTER-SPACING: 0px! important; POSITION: relative; TOP: 0px; HEIGHT: 20px; BACKGROUND-COLOR: transparent; BORDER-BOTTOM-STYLE: none
+}
+SPAN.button INPUT {
+	PADDING-RIGHT: 13px; BACKGROUND-POSITION: 100% -3px; DISPLAY: block; PADDING-LEFT: 4px; FONT-SIZE: 12px! important; RIGHT: -5px; PADDING-BOTTOM: 0px; MARGIN: 0px -10px 0px 4px; VERTICAL-ALIGN: text-top; CURSOR: pointer; COLOR: #222; BORDER-TOP-STYLE: none; LINE-HEIGHT: 1; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; ZOOM: 1; FONT-STYLE: normal; BORDER-RIGHT-STYLE: none; WHITE-SPACE: nowrap; BORDER-LEFT-STYLE: none; LETTER-SPACING: 0px! important; POSITION: relative; TOP: 0px; HEIGHT: 20px; BACKGROUND-COLOR: transparent; BORDER-BOTTOM-STYLE: none
+}
+DEL.button SPAN {
+	PADDING-RIGHT: 13px; BACKGROUND-POSITION: 100% -3px; DISPLAY: block; PADDING-LEFT: 4px; FONT-SIZE: 12px! important; RIGHT: -5px; PADDING-BOTTOM: 0px; MARGIN: 0px -10px 0px 4px; VERTICAL-ALIGN: text-top; CURSOR: pointer; COLOR: #222; BORDER-TOP-STYLE: none; LINE-HEIGHT: 1; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; ZOOM: 1; FONT-STYLE: normal; BORDER-RIGHT-STYLE: none; WHITE-SPACE: nowrap; BORDER-LEFT-STYLE: none; LETTER-SPACING: 0px! important; POSITION: relative; TOP: 0px; HEIGHT: 20px; BACKGROUND-COLOR: transparent; BORDER-BOTTOM-STYLE: none
+}
+UNKNOWN {
+	PADDING-TOP: 6px
+}
+SPAN.button BUTTON {
+	LINE-HEIGHT: 2.5
+}
+HTML.safari A.button SPAN {
+	LINE-HEIGHT: 1.3
+}
+HTML.safari DEL.button SPAN {
+	LINE-HEIGHT: 1.3
+}
+HTML.safari SPAN.button BUTTON {
+	LINE-HEIGHT: 2.6
+}
+HTML.safari A.button:unknown {
+	outline: none
+}
+HTML.safari SPAN.button BUTTON:unknown {
+	outline: none
+}
+DEL.button {
+	BACKGROUND-POSITION: 0px -123px
+}
+DEL.button SPAN {
+	BACKGROUND-POSITION: 100% -123px; CURSOR: default; COLOR: #aaa! important
+}
+A.button SPAN {
+	PADDING-TOP: 5px;
+	color:#0475ae
+}
+UNKNOWN {
+	PADDING-TOP: 7px
+}
+SPAN.button BUTTON {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 2.5; PADDING-TOP: 0px
+}
+SPAN.button INPUT {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 2.5; PADDING-TOP: 0px
+}
+A.button:hover {
+	BACKGROUND-POSITION: 0px -63px; COLOR: #222; TEXT-DECORATION: none
+}
+SPAN.button:hover {
+	BACKGROUND-POSITION: 0px -63px; COLOR: #222; TEXT-DECORATION: none
+}
+A.button:unknown {
+	BACKGROUND-POSITION: 0px -63px; COLOR: #222; TEXT-DECORATION: none
+}
+A.dom-button-focus {
+	BACKGROUND-POSITION: 0px -63px; COLOR: #222; TEXT-DECORATION: none
+}
+SPAN.button-behavior-hover {
+	BACKGROUND-POSITION: 0px -63px; COLOR: #222; TEXT-DECORATION: none
+}
+A.button:hover SPAN {
+	BACKGROUND-POSITION: 100% -63px;
+}
+SPAN.button:hover INPUT {
+	BACKGROUND-POSITION: 100% -63px
+}
+SPAN.button:hover BUTTON {
+	BACKGROUND-POSITION: 100% -63px
+}
+A.button:unknown SPAN {
+	BACKGROUND-POSITION: 100% -63px
+}
+SPAN.button-behavior-hover BUTTON {
+	BACKGROUND-POSITION: 100% -63px
+}
+SPAN.button-behavior-hover INPUT {
+	BACKGROUND-POSITION: 100% -63px
+}
+A.button:active {
+	COLOR: #444
+}
+A.button:unknown SPAN {
+	COLOR: #444
+}
+
+.showdetail {background:#CCCCCC; line-height:180%;LETTER-SPACING:1px;}
+.showdetail td {background:#F2FBFF;padding:1px;}
+
+div.space,div.spacing { margin:2px; padding:2px; } div.space { clear:both; }
+
